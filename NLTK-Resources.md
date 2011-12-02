@@ -1,1 +1,0 @@
-* http://text-processing.com/demo/ - interactive online demos by Jacob Perkins
