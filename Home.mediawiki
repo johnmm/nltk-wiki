@@ -1,0 +1,9 @@
+== Online Demonstrations ==
+
+* [http://text-processing.com/demo/ Interactive online demos by Jacob Perkins]
+
+== Publications ==
+
+* [http://nltk.org/book Natural Language Processing with Python, by Steven Bird, Ewan Klein, and Edward Loper]
+* [https://www.packtpub.com/python-text-processing-with-nltk-2-0-cookbook/book Python Text Processing with NLTK 2.0 Cookbook, by Jacob Perkins]
+
