@@ -1,3 +1,5 @@
+[Courses]
+
 == Online Demonstrations ==
 
 * [http://text-processing.com/demo/ Interactive online demos by Jacob Perkins]
