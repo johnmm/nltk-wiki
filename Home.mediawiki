@@ -1,4 +1,4 @@
-[Courses]
+* [[Courses]]
 
 == Online Demonstrations ==
 
