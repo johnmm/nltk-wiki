@@ -1,5 +1,7 @@
 * [[Courses]]
 
+* [[API Changes for Python 3]]
+
 == Online Demonstrations ==
 
 * [http://text-processing.com/demo/ Interactive online demos by Jacob Perkins]
