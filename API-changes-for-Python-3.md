@@ -1,6 +1,7 @@
 ## Proposed Changes for Consideration
 
 * methods that return sequences should produce iterators by default; there would be no special iter methods
+  * should we remove the `..._iter` methods completely, or just deprecate them?
 * make Tree(s) synonymous with Tree(s,[]) and use Tree.parse(s) directly
   * this would simplify the code in tree.py a lot! I'm all for, --Peter Ljunglöf
 * The same argument could be made for nltk.align.Alignment, --Peter Ljunglöf
