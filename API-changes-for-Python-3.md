@@ -1,6 +1,7 @@
 ## Proposed Changes for Consideration
 
-* make Tree(s) synonymous with Tree(s,[]) and use Tree.parse(s) directly?
+* methods that return sequences should produce iterators by default; there would be no special iter methods
+* make Tree(s) synonymous with Tree(s,[]) and use Tree.parse(s) directly
   * this would simplify the code in tree.py a lot! I'm all for, --Peter Ljunglöf
 * The same argument could be made for nltk.align.Alignment, --Peter Ljunglöf
   * `__new__` is used to be able to give a Giza string instead of a list of pairs. 
