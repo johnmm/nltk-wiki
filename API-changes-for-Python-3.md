@@ -6,4 +6,10 @@
   * `__new__` is used to be able to give a Giza string instead of a list of pairs. 
   * Suggestion: add classmethod `Alignment.fromGiza` and let the constructor only
     allow a list of pairs.
+* not use `__new__` in Abstract Base Classes, for propagating the constructor to subclasses --Peter Ljunglöf
+  * example: `FeatStruct(x)` returns a FeatDict or a FeatList, depending on `x`. 
+    This means that the `type(T(x)) == T` for some classes T, which is unintuitive (and un-object-oriented).
+  * Suggestion: the same as above -- use `FeatStruct.parse(s)` or something like that
+  * This also holds for nltk.sourcedstring.SourcedString, I think
+  * I'm not sure if it will work for nltk.util.AbstractLazySequence
 * remove/deprecate nltk.misc.babelfish?
