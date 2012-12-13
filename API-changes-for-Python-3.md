@@ -17,3 +17,5 @@
 * remove/deprecate nltk.misc.babelfish?
 * perhaps this could be used to simplify sem/logic.py?
   * http://sigusr2.net/2008/Sep/30/python-type-constructors-like-ocaml.html
+* `ConditionalFreqDist.conditions()` currently returns a *sorted* list, which is inefficient:
+  * Suggestion: Just let it return `.keys()` without sorting.
