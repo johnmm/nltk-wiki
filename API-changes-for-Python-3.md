@@ -20,3 +20,5 @@
 * `ConditionalFreqDist.conditions()` currently returns a *sorted* list, which is inefficient:
   * Suggestion: Just let it return `.keys()` without sorting.
 * we may need to wrap word_tokenize() in sent_tokenize(), since some users (and the book?) apply word_tokenize to un-sentence-segmented text
+* `Tree` should *not* be a subclass of `list` --Peter Ljunglöf
+  * Almost all list-operations are anyway unsupported on trees. E.g., `+` or `*` are not supported, but `+=` is.
