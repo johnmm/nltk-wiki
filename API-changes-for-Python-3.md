@@ -4,7 +4,7 @@
   * should we remove the `..._iter` methods completely, or just deprecate them?
 * make Tree(s) synonymous with Tree(s,[]) and use Tree.parse(s) directly
   * this would simplify the code in tree.py a lot! I'm all for, --Peter Ljunglöf
-  * but the name `parse` is unfortunate -- it reminds too much of all the NLTK parsers -- how about `fromString`?
+  * but the name `parse` is unfortunate -- it reminds too much of all the NLTK parsers -- how about `fromstring`? (used in the libraries array, xml.etree, lxml, numpy, ...)
 * The same argument could be made for nltk.align.Alignment, --Peter Ljunglöf
   * `__new__` is used to be able to give a Giza string instead of a list of pairs. 
   * Suggestion: add classmethod `Alignment.fromGiza` and let the constructor only
