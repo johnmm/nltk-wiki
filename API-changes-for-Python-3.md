@@ -16,6 +16,7 @@
   * This also holds for nltk.sourcedstring.SourcedString, I think
   * I'm not sure if it will work for nltk.util.AbstractLazySequence
 * remove/deprecate nltk.misc.babelfish?
+  * we should go ahead and remove it, yeah. https://github.com/nltk/nltk/issues/265 --Alex Rudnick
 * perhaps this could be used to simplify sem/logic.py?
   * http://sigusr2.net/2008/Sep/30/python-type-constructors-like-ocaml.html
 * `ConditionalFreqDist.conditions()` currently returns a *sorted* list, which is inefficient:
