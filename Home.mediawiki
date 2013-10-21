@@ -2,6 +2,8 @@
 
 * [[API Changes for Python 3]]
 
+* [[Integration Testing]]
+
 == Online Demonstrations ==
 
 * [http://text-processing.com/demo/ Interactive online demos by Jacob Perkins]
