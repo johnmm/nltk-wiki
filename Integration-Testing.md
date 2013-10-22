@@ -5,9 +5,9 @@ First of all, install [Jenkins](http://jenkins-ci.org/). See the web site for in
 
 Once Jenkins is up and running, install the following plugins.
  * ShiningPanda Plugin (for python supports)
- * GitHub plugin (for github supports)
+ * GitHub Plugin (for github supports)
  * Jenkins Cobertura Plugin (for publishing coverage result)
- * Jenkins Violations plugin (for publishing pylint result)
+ * Jenkins Violations Plugin (for publishing pylint result)
  * Environment Injector Plugin (for custom shell environment variables)
 
 Jenkins plugins can be installed from the following menu:
@@ -22,11 +22,12 @@ Create a new Jenkins job using the configuration file included in nltk. The conf
 
 Replace `your_jenkins_url` and `newjobname` with appropriate values above. The `--user` option can be omitted if Jenkins user and password are not configured.
 
-Now, configure the created job. Open the configuration menu by clicking on the hyper link for the new job, and then clicking on the `Configure` menu on the left side. In the configuration page, make sure that it is pointing to the right branch/repository. Also, unless you are using macports, you might want to turn off the following check box:
+Now, configure the created job. Open the configuration menu by clicking on the hyperlink for the new job, and then clicking on the `Configure` menu on the left side. In the configuration page, make sure that it is pointing to the right branch/repository. Also, unless you are using Macports, you might want to turn off the following check box:
 
     Inject environment variables to the build process
 
 That's it. Jenkins will run the job in 5 minutes because the configuration files is set up to check the repository every 5 minutes. If it finds any new commits, it will download the changes and run the job. The job's workspace is initially empty, so at first poll, Jenkins will download the entire repository and run the job.
+
 How It Works
 ------------
 
