@@ -17,7 +17,7 @@ Jenkins plugins can be installed from the following menu:
 Create a new Jenkins job using the configuration file included in nltk. The configuration file is called `jenkins-job-config.xml`. This file can be imported using a REST API. For example,
 
     curl --user USER:PASS -H "Content-Type: text/xml" -s \
-         --data "@jenkins-jon-config.xml" \
+         --data "@jenkins-job-config.xml" \
          "https://your_jenkins_url/createItem?name=newjobname"
 
 Replace `your_jenkins_url` and `newjobname` with appropriate values above. The `--user` option can be omitted if Jenkins user and password are not configured.
