@@ -1,8 +1,9 @@
 * [[FAQ]]
 * [[Projects]] &mdash; other projects that build on NLTK
-* [[Quotes]] - things people have said about NLTK
-* [[Courses]]
+* [[Quotes]] &mdash; things people have said about NLTK
+* [http://tinyurl.com/nltk-courses Courses] &mdash; university courses that use NLTK
 * [http://text-processing.com/demo/ Interactive online demos]
+* [http://wu.ourproject.org/moin/projects/nltk/ProjectIdeas Project Ideas]
 
 == Documentation ==
 
@@ -20,6 +21,4 @@
 
 == Pages to be incorporated here ==
 
-* [http://wu.ourproject.org/moin/projects/nltk/ProjectIdeas]
-* [http://tinyurl.com/nltk-courses]
 * [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=1140248 Support NLTK development by donating]
