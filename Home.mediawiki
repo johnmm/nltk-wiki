@@ -1,11 +1,8 @@
 * [[Projects]]
-
+* [http://scholar.google.com.au/scholar?q=NLTK Scholarly research that uses NLTK]
 * [[Courses]]
-
 * [[API Changes for Python 3]]
-
 * [[Developers Guide]]
-
 * [[Integration Testing]]
 
 == Online Demonstrations ==
