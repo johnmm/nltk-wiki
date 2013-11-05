@@ -17,4 +17,5 @@
 <li><a href="http://www.loria.fr/%7Egardent/applicationsTAL/slides/l5-nltk-tagging-2x2.pdf" rel="nofollow">Tagging with NLTK</a> - constructing and evaluating POS taggers<br /></li>
 <li><a href="http://samibadawi.blogspot.com/2010/03/open-source-nlp-in-c-35-using-nltk.html" rel="nofollow">Using NLTK with C#</a></li>
 <li><a href="http://language.dyndns.org/research/CHILDES/" rel="nofollow">Analyzing CHILDES with NLTK</a> - processing child language data<br /></li>
+<li><a href="http://www.sjwhitworth.com/sentiment-analysis-in-python-using-nltk/">Sentiment analysis in Python with NLTK</a></li>
 </ul>
