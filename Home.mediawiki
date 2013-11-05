@@ -3,10 +3,6 @@
 * [[Quotes]] - things people have said about NLTK
 * [[Courses]]
 
-== Online Demonstrations ==
-
-* [http://text-processing.com/demo/ Interactive online demos by Jacob Perkins]
-
 == Documentation ==
 
 * [[Third-Party Documentation]]
