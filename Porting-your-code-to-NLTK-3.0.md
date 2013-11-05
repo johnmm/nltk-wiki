@@ -2,10 +2,9 @@ NLTK 3.0 contains a number of interface changes. These are being incorporated in
 
 Here are some changes you may need to make:
 
-* Tree.node -> Tree.label() / Tree.set_label()
-* Chunk parser: top_node -> root_label; chunk_node -> chunk_label
-* WordNet properties are now access methods, e.g. Synset.definition -> Synset.definition()
-* relextract: show_raw_rtuple() -> rtuple(), show_clause() -> clause()
-* corpusname.tagged_words(simplify_tags=True) -> corpusname.tagged_words(tagset='universal')
-* clean_html -> BeautifulSoup.get_text
-
+* `Tree.node` &rarr; `Tree.label()` / `Tree.set_label()`
+* Chunk parser: `top_node` &rarr; `root_label`; `chunk_node` &rarr; `chunk_label`
+* WordNet properties are now access methods, e.g. `Synset.definition` &rarr; `Synset.definition()`
+* relextract: `show_raw_rtuple()` &rarr; `rtuple()`, `show_clause()` &rarr; `clause()`
+* `corpusname.tagged_words(simplify_tags=True)` &rarr; `corpusname.tagged_words(tagset='universal')`
+* `clean_html()` &rarr; `BeautifulSoup.get_text()`
