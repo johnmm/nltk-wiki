@@ -2,6 +2,7 @@
 * [[Projects]] &mdash; other projects that build on NLTK
 * [[Quotes]] - things people have said about NLTK
 * [[Courses]]
+* [http://text-processing.com/demo/ Interactive online demos]
 
 == Documentation ==
 
