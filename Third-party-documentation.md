@@ -1,0 +1,20 @@
+<li><a href="https://www.packtpub.com/python-text-processing-with-nltk-2-0-cookbook/book" rel="nofollow">Python Text Processing with NLTK 2.0 Cookbook</a> - lots of text processing recipes by Jacob Perkins</li>
+<li><a href="http://text-processing.com/demo/" rel="nofollow">http://text-processing.com/demo/</a> - interactive online demos by Jacob Perkins</li>
+<li><a href="http://streamhacker.com/tag/nltk/" rel="nofollow">NLTK posts at Streamhacker.com</a> - more text processing recipes by Jacob Perkins<br /></li>
+<li><a href="http://streamhacker.com/2009/05/20/building-a-nltk-freqdist-on-redis/" rel="nofollow">Building a NLTK FreqDist on Redis</a> - improved FreqDist using an efficient key-value network-accessible database</li>
+<li><a href="http://streamhacker.com/2009/02/23/chunk-extraction-with-nltk/" rel="nofollow">Chunk Extraction with NLTK</a> - creating parse trees from unstructured text</li>
+<li><a href="http://www.loria.fr/%7Egardent/applicationsTAL/slides/l4-nltk-corpora-tokenization-2x2.pdf" rel="nofollow">Corpus Processing and Tokenizing with NLTK</a> - introduction to basic corpus operations<br /></li>
+<li><a href="http://streamhacker.com/2009/11/29/distributed-nltk-execnet/" rel="nofollow">Distributed NLTK with Execnet</a> - distributed part-of-speech tagging<br /></li>
+<li><a href="http://streamhacker.com/2009/12/14/execnet-disco-distributed-nltk/" rel="nofollow">Execnet vs Disco for Distributed NLTK</a> - comparing platforms for distributed data processing</li>
+<li><a href="http://streamhacker.com/2008/12/29/how-to-train-a-nltk-chunker/" rel="nofollow">How to Train a NLTK Chunker</a> - training a chunker (features accuracy results)<br /></li>
+<li><a href="http://answers.oreilly.com/topic/1091-how-to-use-an-nltk-part-of-speech-tagger/" rel="nofollow">How to Use an NLTK Part-of-Speech Tagger</a> - basic information</li>
+<li><a href="http://us.pycon.org/2010/conference/schedule/event/98/" rel="nofollow">The Python and the Elephant: Large Scale Natural Language Processing with NLTK and Dumbo</a> - PyCon 2010 talk by Nitin Madnani and Jimmy Lin<br /></li>
+<li><a href="http://www.cs.mu.oz.au/%7Epbone/papers/nltk-hadoop.pdf" rel="nofollow">Integrating NLTK with the Hadoop Map Reduce Framework</a> - a programming model for writing applications that rapidly process vast amounts of data in parallel on large clusters of compute nodes<br /></li>
+<li><a href="http://streamhacker.com/2010/03/15/nltk-classifier-based-chunker-accuracy/" rel="nofollow">NLTK Classifier Based Chunker Accuracy</a> - comparing performance of chunkers based on taggers vs classifers</li>
+<li><a href="http://blog.quibb.org/2010/01/nltk-regular-expression-parser-regexpparser/" rel="nofollow">NLTK Regular Expression Parser</a> - basic information on RegexpParser usage</li>
+<li><a href="http://streamhacker.com/2008/11/03/part-of-speech-tagging-with-nltk-part-1/" rel="nofollow">Part of Speech Tagging with NLTK</a> - <a href="http://streamhacker.com/2008/11/03/part-of-speech-tagging-with-nltk-part-1/" rel="nofollow">Part 1</a>, <a href="http://streamhacker.com/2008/11/10/part-of-speech-tagging-with-nltk-part-2/" rel="nofollow">Part2</a>, <a href="http://streamhacker.com/2008/12/03/part-of-speech-tagging-with-nltk-part-3/" rel="nofollow">Part 3</a>, <a href="http://streamhacker.com/2010/04/12/pos-tag-nltk-brill-classifier/" rel="nofollow">Part 4</a> (Brill Tagger vs Classifier Taggers)<br /></li>
+<li><a href="http://freshmeat.net/articles/processing-corpora-with-python-and-the-natural-language-toolkit" rel="nofollow">Processing Corpora with Python and the Natural Language Toolkit</a> - tutorial</li>
+<li><a href="http://www.loria.fr/%7Egardent/applicationsTAL/slides/l5-nltk-tagging-2x2.pdf" rel="nofollow">Tagging with NLTK</a> - constructing and evaluating POS taggers<br /></li>
+<li><a href="http://samibadawi.blogspot.com/2010/03/open-source-nlp-in-c-35-using-nltk.html" rel="nofollow">Using NLTK with C#</a></li>
+<li><a href="http://language.dyndns.org/research/CHILDES/" rel="nofollow">Analyzing CHILDES with NLTK</a> - processing child language data<br /></li>
+</ul>
