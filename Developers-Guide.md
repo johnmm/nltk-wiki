@@ -2,8 +2,8 @@ We invite contributions to NLTK. Pull requests will be vetted to ensure the foll
 
 The following expectations apply to project members:
 
-* assign copyright of the code to the "NLTK Project"
-* maintain high-quality coding standards; follow PEP-8 Style for code; use new style classes
+* assign copyright of the code to the "NLTK Project" (authors are identified at the top of each module)
+* maintain high-quality coding standards; follow [PEP-8 Style](http://www.python.org/dev/peps/pep-0008/) for code; use new style classes
 * document method parameters using Sphinx markup
 * include doctests in the module, class, and method docstrings following the model the nltk.tokenize package
 * test the module docstrings and /nltk/test/*.doctest when code is changed
