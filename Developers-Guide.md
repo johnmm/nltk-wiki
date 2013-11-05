@@ -11,4 +11,4 @@ The following expectations apply to project members:
 * include detailed commit messages
 * ensure changes don't break other code (or update other code as needed)
 * run doctest on the module if it is invoked on the command line
-* discuss and announce significant changes on nltk-dev (including names for new packages)
+* discuss and announce significant changes on [nltk-dev](https://groups.google.com/d/forum/nltk-dev), including names for new packages
