@@ -5,6 +5,7 @@
 * [[Developers Guide]]
 * [[Integration Testing]]
 * [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=1140248 Support NLTK development by donating]
+* [[Quotes]] - things people have said about NLTK
 
 == Online Demonstrations ==
 
