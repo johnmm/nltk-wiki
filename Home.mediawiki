@@ -20,3 +20,4 @@
 * [https://sites.google.com/site/naturallanguagetoolkit/faq]
 * [http://wu.ourproject.org/moin/projects/nltk/ProjectIdeas]
 * [https://code.google.com/p/nltk/wiki/DevelopersGuide]
+* [http://tinyurl.com/nltk-courses]
