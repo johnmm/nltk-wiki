@@ -7,6 +7,7 @@
 
 == Documentation ==
 
+* [[NLTK 3.0]]
 * [[Third-Party Documentation]]
 * [[Articles about NLTK]]
 * [http://nltk.org/book Natural Language Processing with Python, by Steven Bird, Ewan Klein, and Edward Loper]
