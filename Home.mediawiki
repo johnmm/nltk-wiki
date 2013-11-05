@@ -4,6 +4,7 @@
 * [[API Changes for Python 3]]
 * [[Developers Guide]]
 * [[Integration Testing]]
+* [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=1140248 Support NLTK development by donating]
 
 == Online Demonstrations ==
 
