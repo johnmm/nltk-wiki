@@ -1,25 +1,28 @@
 * [[FAQ]]
-* [[Projects]]
-* [[Courses]]
-* [[API Changes for Python 3]]
-* [[Developers Guide]]
-* [[Integration Testing]]
-* [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=1140248 Support NLTK development by donating]
+* [[Projects]] &mdash; other projects that build on NLTK
 * [[Quotes]] - things people have said about NLTK
-* [[Third-Party Documentation]]
-* [[Articles about NLTK]]
+* [[Courses]]
 
 == Online Demonstrations ==
 
 * [http://text-processing.com/demo/ Interactive online demos by Jacob Perkins]
 
-== Publications ==
+== Documentation ==
 
+* [[Third-Party Documentation]]
+* [[Articles about NLTK]]
 * [http://nltk.org/book Natural Language Processing with Python, by Steven Bird, Ewan Klein, and Edward Loper]
 * [https://www.packtpub.com/python-text-processing-with-nltk-2-0-cookbook/book Python Text Processing with NLTK 2.0 Cookbook, by Jacob Perkins]
 * [http://scholar.google.com.au/scholar?q=NLTK Scholarly research that uses NLTK]
 
-== Pages to be migrated here ==
+== Development ==
+
+* [[Developers Guide]]
+* [[Integration Testing]]
+* [[API Changes for Python 3]]
+
+== Pages to be incorporated here ==
 
 * [http://wu.ourproject.org/moin/projects/nltk/ProjectIdeas]
 * [http://tinyurl.com/nltk-courses]
+* [https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=1140248 Support NLTK development by donating]
