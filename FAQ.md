@@ -1,6 +1,6 @@
 Answers to Frequently Asked Questions about NLTK
 
-<p><i>Do you have a question that is not answered here?  Please post it to the <a href="http://groups.google.com/group/nltk-users">nltk-users</a> or <a href="http://groups.google.com/group/nltk-dev">nltk-dev</a> mailing list.</i> </p><ol><li><b>What license does NLTK use?</b> </li><blockquote>NLTK is open source software.  The source code is distributed under the 
+<p><i>Do you have a question that is not answered here?  Please post it to the <a href="http://groups.google.com/group/nltk-users">nltk-users</a> mailing list.</i> </p><ol><li><b>What license does NLTK use?</b> </li><blockquote>NLTK is open source software.  The source code is distributed under the 
 terms of the <a href="http://www.apache.org/licenses/LICENSE-2.0" rel="nofollow">Apache License Version 2.0</a>.  The documentation is distributed under the terms of the 
 <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/" rel="nofollow">Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States license</a>. 
 The corpora are distributed under various licenses, as documented in their respective README files. 
