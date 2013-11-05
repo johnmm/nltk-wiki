@@ -15,3 +15,8 @@
 * [http://nltk.org/book Natural Language Processing with Python, by Steven Bird, Ewan Klein, and Edward Loper]
 * [https://www.packtpub.com/python-text-processing-with-nltk-2-0-cookbook/book Python Text Processing with NLTK 2.0 Cookbook, by Jacob Perkins]
 
+== Pages to be migrated here ==
+
+* <https://sites.google.com/site/naturallanguagetoolkit/faq>
+* <http://wu.ourproject.org/moin/projects/nltk/ProjectIdeas>
+* <https://code.google.com/p/nltk/wiki/DevelopersGuide>
