@@ -1,6 +1,4 @@
-Prescribed structure of NLTK packages
-
-NLTK Packages conform to the following structure:
+Most NLTK code is structured into packages, which have the following structure:
 
   1. all modules
     * opening comment with package name, copyright, license, authors
