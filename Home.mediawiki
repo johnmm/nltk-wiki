@@ -1,4 +1,4 @@
-* [[FAQ]]
+* [[FAQ]] &mdash; answers to frequently asked questions
 * [[Projects]] &mdash; other projects that build on NLTK
 * [[Quotes]] &mdash; things people have said about NLTK
 * [http://tinyurl.com/nltk-courses Courses] &mdash; university courses that use NLTK
