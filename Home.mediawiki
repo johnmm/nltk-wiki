@@ -17,6 +17,6 @@
 
 == Pages to be migrated here ==
 
-* <https://sites.google.com/site/naturallanguagetoolkit/faq>
-* <http://wu.ourproject.org/moin/projects/nltk/ProjectIdeas>
-* <https://code.google.com/p/nltk/wiki/DevelopersGuide>
+* [https://sites.google.com/site/naturallanguagetoolkit/faq]
+* [http://wu.ourproject.org/moin/projects/nltk/ProjectIdeas]
+* [https://code.google.com/p/nltk/wiki/DevelopersGuide]
