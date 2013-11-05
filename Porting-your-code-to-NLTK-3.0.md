@@ -1,4 +1,4 @@
-NLTK 3.0 incorporates a number of interface changes. These are being incorporated into a new version of the [NLTK book](http://nltk.org/book3), updated for Python 3 and NLTK 3.
+NLTK 3.0 contains a number of interface changes. These are being incorporated into a new version of the [NLTK book](http://nltk.org/book3), updated for Python 3 and NLTK 3.
 
 Here are some changes you may need to make:
 
