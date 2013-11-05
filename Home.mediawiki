@@ -4,6 +4,8 @@
 
 * [[API Changes for Python 3]]
 
+* [[Developers Guide]]
+
 * [[Integration Testing]]
 
 == Online Demonstrations ==
