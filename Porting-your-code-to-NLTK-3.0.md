@@ -10,6 +10,7 @@ Here are some changes you may need to make:
 * `clean_html()` &rarr; `BeautifulSoup.get_text()`
 * `fdist.keys()` &rarr; `sorted(fdist)`
 * `fdist.inc(x)` &rarr; `fdist[x] += 1`
+* `fdist.Nr(r)` &rarr; `fdist.Nr()[r]`
 * `cfdist.conditions()` &rarr; `sorted(cfdist.conditions())`
 
 More background on NLTK 3:
