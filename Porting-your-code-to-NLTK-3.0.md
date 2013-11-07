@@ -8,6 +8,7 @@ Here are some changes you may need to make:
 * relextract: `show_raw_rtuple()` &rarr; `rtuple()`, `show_clause()` &rarr; `clause()`
 * `corpusname.tagged_words(simplify_tags=True)` &rarr; `corpusname.tagged_words(tagset='universal')`
 * `clean_html()` &rarr; `BeautifulSoup.get_text()`
+* `fdist.keys()` &rarr; `sorted(fdist)`
 
 More background on NLTK 3:
 
