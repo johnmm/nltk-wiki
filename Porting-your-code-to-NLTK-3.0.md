@@ -9,6 +9,7 @@ Here are some changes you may need to make:
 * `corpusname.tagged_words(simplify_tags=True)` &rarr; `corpusname.tagged_words(tagset='universal')`
 * `clean_html()` &rarr; `BeautifulSoup.get_text()`
 * `fdist.keys()` &rarr; `sorted(fdist)`
+* `cfdist.conditions()` &rarr; `sorted(cfdist.conditions())`
 
 More background on NLTK 3:
 
