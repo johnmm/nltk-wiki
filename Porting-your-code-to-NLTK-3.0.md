@@ -14,6 +14,8 @@ Here are some changes you may need to make:
 * `fdist.Nr_nonzero()` &rarr; `fdist.Nr().items()`
 * `cfdist.conditions()` &rarr; `sorted(cfdist.conditions())`
 
-More background on NLTK 3:
+More background on Python 3 and NLTK 3:
 
+* http://docs.python.org/2/library/2to3.html
+* http://docs.python.org/dev/whatsnew/3.0.html
 * http://nltk.org/dev/python3porting.html
