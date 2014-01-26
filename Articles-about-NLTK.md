@@ -14,7 +14,7 @@
 <dd> Nitin Madnani and Bonnie Dorr.  <i>Proceedings of the Third Workshop on Issues in Teaching Computational Linguistics</i>, Columbus, Ohio, USA, June 2008.
 </dd>
 </dl>
-<dl><dt> <a href="http://www.umiacs.umd.edu/%7Enmadnani/pdf/crossroads.pdf" rel="nofollow" title="http://www.umiacs.umd.edu/~nmadnani/pdf/crossroads.pdf">Getting Started on Natural Language Processing with Python</a>
+<dl><dt> <a href="http://desilinguist.org/pdf/crossroads.pdf" rel="nofollow" title="http://desilinguist.org/pdf/crossroads.pdf">Getting Started on Natural Language Processing with Python</a>
 </dt>
 <dd> Nitin Madnani. <i>ACM Crossroads</i>, Volume 13, Issue 4, 2007. (NB this version revised slightly from ACM version.)
 </dd>
