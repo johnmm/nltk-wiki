@@ -29,7 +29,7 @@ To install:
 * Point the `STANFORD_MODELS` environment variable to the directory containing the stanford tokenizer models (`arabic.tagger`, `arabic-train.tagger`, `chinese-distsim.tagger`, ...)
 
 ## MALLET
-Currently only MALLET v0.4 is supported, but there is work in progress to update the MALLET interface: https://github.com/nltk/nltk/issues/104
+Currently only MALLET v0.4 is supported, but there is work in progress to update the MALLET interface: [#104](https://github.com/nltk/nltk/issues/104)
 
 To install:
 * Make sure java is installed
