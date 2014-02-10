@@ -5,6 +5,8 @@ NLTK finds third party software through environment variables or via path argume
 ## Java
 Java is not required by nltk, however some third party software may be dependent on it. NLTK finds the java binary via the system `PATH` environment variable, or through `JAVAHOME` or `JAVA_HOME`.
 
+To search for java binaries (jar files), nltk checks the java `CLASSPATH` variable, however there are usually independent environment variables which are also searched for each dependency individually.
+
 ### Windows
 * Download & Install the jdk on java's official website: http://www.oracle.com/technetwork/java/javase/downloads/index.html?ssSourceSiteId=otnjp
 
@@ -57,7 +59,18 @@ To install
 ## Prover9 & Mace4
 
 To install
-* Download Prover9 & Mace4: http://www.cs.unm.edu/~mccune/mace4/
+* Download & extract Prover9 & Mace4: http://www.cs.unm.edu/~mccune/mace4/
 * Set the environment variable `PROVER9HOME` to point to the binaries directory.
 
+## Malt Parser
 
+To install
+* Make sure java is installed
+* Download & extract the Malt Parser: http://www.maltparser.org/download.html
+* Set the environment variable `MALTPARSERHOME` to point to the directory containing `malt.jar`.
+
+## Hunpos Tagger
+
+To install
+* Download & extract the hunpos tagger files: https://code.google.com/p/hunpos/downloads/list
+* Set the environment variable `HUNPOS` or `HUNPOS_HOME` to point to the directory containing the `hunpos-tag` binary. NLTK also searches for the model files via these environment variables, but their paths can also be passed to the `nltk.tag.hunpos.HunposTagger` class via the `path_to_model` argument.
