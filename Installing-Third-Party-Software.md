@@ -5,6 +5,7 @@ NLTK finds third party software through environment variables or via path argume
 ## Stanford Parser
 
 To install:
+* Make sure java is installed
 * Download & extract the stanford parser package: http://nlp.stanford.edu/software/lex-parser.shtml
 * Point the `STANFORD_PARSER` or java `CLASSPATH` environment variable to the directory containing `stanford-parser.jar`.
 * Point the `STANFORD_MODELS` environment variable to the directory containing `stanford-parser-x.x.x-models.jar`.
@@ -12,6 +13,7 @@ To install:
 ## Stanford Tagger & Tokenizer
 
 To install:
+* Make sure java is installed
 * Download & extract the stanford tokenizer package (contains the stanford tagger): http://nlp.stanford.edu/software/lex-parser.shtml
 * Download & extract the stanford NER package http://nlp.stanford.edu/software/CRF-NER.shtml
 * Point the java `CLASSPATH` environment variable to the directory containing `stanford-postagger.jar` and `stanford-ner.jar`.
