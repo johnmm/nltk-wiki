@@ -54,3 +54,10 @@ To install
 * Checkout & compile the latest SVN revision http://svn.ask.it.usyd.edu.au/trac/candc/wiki/Subversion
 * Set the environment variable `CANDCHOME` to point to the C&C directory.
 
+## Prover9 & Mace4
+
+To install
+* Download Prover9 & Mace4: http://www.cs.unm.edu/~mccune/mace4/
+* Set the environment variable `PROVER9HOME` to point to the binaries directory.
+
+
