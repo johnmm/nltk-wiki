@@ -36,10 +36,16 @@ To install:
 * Download & extract MALLET: http://mallet.cs.umass.edu/download.php
 * Set the environment variable `MALLET_HOME` or `MALLET` to point to the MALLET directory.
 
+## TADM (Toolkit for Advanced Discriminative Modeling)
+
+To install
+* Download & compile TADM: http://tadm.sourceforge.net/
+* Set the environment variable `TADM_DIR` to point to the tadm binaries directory.
+
 ## Megam (MEGA Model Optimization Package)
 
 To install
-* Download & compile MEGAM's source http://www.umiacs.umd.edu/~hal/megam/index.html
+* Download & compile MEGAM's source: http://www.umiacs.umd.edu/~hal/megam/index.html
 * Set the environment variable `MEGAM` or `MEGAMHOME` to point to the MEGAM directory.
 
 ## C&C Tools/Boxer
