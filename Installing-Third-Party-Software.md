@@ -1,6 +1,6 @@
 ## How NLTK Discovers Third Party Software
 
-NLTK finds third party software through environment variables by default, but arguments to paths containing them can also be specified in api calls. This page will list installation instructions & their associated environment variables.
+NLTK finds third party software through environment variables or via path arguments through api calls. This page will list installation instructions & their associated environment variables.
 
 ## Stanford Parser
 
