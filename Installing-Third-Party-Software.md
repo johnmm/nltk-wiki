@@ -34,11 +34,17 @@ Currently only MALLET v0.4 is supported, but there is work in progress ([#104](h
 To install:
 * Make sure java is installed
 * Download & extract MALLET: http://mallet.cs.umass.edu/download.php
-* Set the environment variable `MALLET_HOME` or `MALLET` to point to the MALLET directory
+* Set the environment variable `MALLET_HOME` or `MALLET` to point to the MALLET directory.
 
 ## Megam (MEGA Model Optimization Package)
 
 To install
 * Download & compile MEGAM's source http://www.umiacs.umd.edu/~hal/megam/index.html
-* Set the environment variable `MEGAM` or `MEGAMHOME` to point to the MEGAM directory
+* Set the environment variable `MEGAM` or `MEGAMHOME` to point to the MEGAM directory.
+
+## C&C Tools/Boxer
+
+To install
+* Checkout & compile the latest SVN revision http://svn.ask.it.usyd.edu.au/trac/candc/wiki/Subversion
+* Set the environment variable `CANDCHOME` to point to the C&C directory.
 
