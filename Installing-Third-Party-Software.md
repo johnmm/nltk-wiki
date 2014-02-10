@@ -3,7 +3,7 @@
 NLTK finds third party software through environment variables or via path arguments through api calls. This page will list installation instructions & their associated environment variables.
 
 ## Java
-Java is not required by nltk, however some third party software may be dependent on it. NLTK finds the java binary via the system path environment variable, or through `JAVAHOME` or `JAVA_HOME`.
+Java is not required by nltk, however some third party software may be dependent on it. NLTK finds the java binary via the system `PATH` environment variable, or through `JAVAHOME` or `JAVA_HOME`.
 
 ### Windows
 * Download & Install the jdk on java's official website: http://www.oracle.com/technetwork/java/javase/downloads/index.html?ssSourceSiteId=otnjp
