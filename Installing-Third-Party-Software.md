@@ -36,7 +36,7 @@ To install:
 * Download & extract MALLET: http://mallet.cs.umass.edu/download.php
 * Set the environment variable `MALLET_HOME` or `MALLET` to point to the MALLET directory.
 
-## TADM (Toolkit for Advanced Discriminative Modeling)
+## Tadm (Toolkit for Advanced Discriminative Modeling)
 
 To install
 * Download & compile TADM: http://tadm.sourceforge.net/
