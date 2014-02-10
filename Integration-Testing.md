@@ -66,5 +66,3 @@ For each of the virtual environments, Tox runs `jenkins.sh`, which is the only c
  * installs any third party dependencies,
  * runs doctests & unit tests via `nltk/test/runtests.py`,
  * generates test results,
-
-`pip-install.py` is a simple program that loops through python packages specified in the `pip-req.txt` file and install them one at a time using pip. This is a workaround for an issue with the `pip install -r` command, where pip refuses to install anything in the requirements list if the `setup.py` of a package requires another package in the list to have been installed already. See this [issue tracker](https://github.com/pypa/pip/issues/25) for details.
