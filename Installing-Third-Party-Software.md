@@ -27,3 +27,11 @@ To install:
 * Download & extract the stanford NER package http://nlp.stanford.edu/software/CRF-NER.shtml
 * Point the java `CLASSPATH` environment variable to the directory containing `stanford-postagger.jar` and `stanford-ner.jar`.
 * Point the `STANFORD_MODELS` environment variable to the directory containing the stanford tokenizer models (`arabic.tagger`, `arabic-train.tagger`, `chinese-distsim.tagger`, ...)
+
+## MALLET
+Currently only MALLET v0.4 is supported, but there is work in progress to update the MALLET interface: https://github.com/nltk/nltk/issues/104
+
+To install:
+* Make sure java is installed
+* Download & extract MALLET: http://mallet.cs.umass.edu/download.php
+* Set the environment variable `MALLET_HOME` or `MALLET` to point to the MALLET directory
