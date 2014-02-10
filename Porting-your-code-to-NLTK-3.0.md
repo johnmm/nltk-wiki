@@ -7,7 +7,7 @@ Here are some changes you may need to make:
 * WordNet properties are now access methods, e.g. `Synset.definition` &rarr; `Synset.definition()`
 * relextract: `show_raw_rtuple()` &rarr; `rtuple()`, `show_clause()` &rarr; `clause()`
 * `corpusname.tagged_words(simplify_tags=True)` &rarr; `corpusname.tagged_words(tagset='universal')`
-* `clean_html()` &rarr; `BeautifulSoup.get_text()` (`clean_html()` is dropped, use BeautifulSoup instead)
+* `clean_html()` &rarr; `BeautifulSoup.get_text()` (`clean_html()` is dropped, install & use BeautifulSoup or some other html parser instead)
 * `fdist.keys()` &rarr; `sorted(fdist)`
 * `fdist.inc(x)` &rarr; `fdist[x] += 1`
 * `fdist.Nr(r)` &rarr; `fdist.Nr()[r]`
