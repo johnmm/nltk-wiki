@@ -45,10 +45,6 @@ Here's the list of files that are involved in the setup.
 
  This is a pip requirements file. It lists NLTK dependencies.
 
-* pip-install.py
-
- This is a small utility program that reads pip-req.txt and installs dependencies one by one. This is executed by `jenkins.sh` to install dependencies.
-
 * tox.ini
 
  This is a configuration file for [Tox](http://tox.readthedocs.org/en/latest/). Tox is used to enable multi-python test environments. For example, it allows to run tests with python 2.7, python 3.2, pypy, etc. This config file lists many test environments. Our Jenkins job is configured to use two of them: `py26-jenkins` and `py32-jenkins`. These environments are set up to execute `jenkins.sh`, which in turn executes `nltk/test/runtests.py`.
