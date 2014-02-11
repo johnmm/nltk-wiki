@@ -14,6 +14,17 @@ Here are some changes you may need to make:
 * `fdist.Nr_nonzero()` &rarr; `fdist.Nr().items()`
 * `cfdist.conditions()` &rarr; `sorted(cfdist.conditions())`
 
+Removed modules and classes:
+
+* `nltk.classify.svm` was removed. For classification based on support vector machines (SVMs) use `nltk.classify.scikitlearn` or [scikit-learn](http://scikit-learn.org) directly. See GH-450.
+* `nltk.corpus.reader.wordnet._lcs_by_depth` was removed. See GH-422.
+* `nltk.probability.GoodTuringProbDist` class is removed. See GH-381.
+* `HiddenMarkovModelTaggerTransformI` and its subclasses are removed. See GH-374.
+* `nltk.classify.maxent` no longer support algorithms backed by `scipy.maxentropy`. See GH-321.
+* `nltk.misc.babelfish` is removed. See GH-265.
+* `nltk.sourcedstring` is removed. See GH-322.
+
+
 More background on Python 3 and NLTK 3:
 
 * http://docs.python.org/2/library/2to3.html
