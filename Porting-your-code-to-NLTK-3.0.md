@@ -14,8 +14,6 @@ Here are some changes you may need to make:
 * `fdist.Nr_nonzero()` &rarr; `fdist.Nr().items()`
 * `cfdist.conditions()` &rarr; `sorted(cfdist.conditions())`
 
-
-
 Removed modules and classes:
 
 * `nltk.classify.svm` was removed. For classification based on support vector machines (SVMs) use `nltk.classify.scikitlearn` or [scikit-learn](http://scikit-learn.org) directly. See https://github.com/nltk/nltk/issues/450.
@@ -26,6 +24,7 @@ Removed modules and classes:
 * `nltk.misc.babelfish` is removed. See https://github.com/nltk/nltk/issues/265.
 * `nltk.sourcedstring` is removed. See https://github.com/nltk/nltk/issues/322.
 
+The way NLTK works with unicode is changed: NLTK3 requires all text input to be unicode and always return text as unicode. Previously, some functions and classes worked on unicode and others required encoded bytestrings. Please make sure you're passing unicode to NLTK and expecting unicode output from NLTK - existing code that assumes bytestrings may start to fail.
 
 More background on Python 3 and NLTK 3:
 
