@@ -14,6 +14,8 @@ Here are some changes you may need to make:
 * `fdist.Nr_nonzero()` &rarr; `fdist.Nr().items()`
 * `cfdist.conditions()` &rarr; `sorted(cfdist.conditions())`
 
+
+
 Removed modules and classes:
 
 * `nltk.classify.svm` was removed. For classification based on support vector machines (SVMs) use `nltk.classify.scikitlearn` or [scikit-learn](http://scikit-learn.org) directly. See https://github.com/nltk/nltk/issues/450.
