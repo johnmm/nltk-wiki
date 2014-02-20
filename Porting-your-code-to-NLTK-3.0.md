@@ -17,6 +17,9 @@ Here are some changes you may need to make:
 * `nltk.tokenize.batch_tokenize()` &rarr; `nltk.tokenize.tokenize_sents()`
 * `nltk.tag.batch_tag()` &rarr; `nltk.tag.tag_sents()`
 * `nltk.parse.batch_parse()` &rarr; `nltk.parse.parse_sents()`
+* `nltk.classify.batch_classify()` &rarr; `nltk.classify.classify_many()`
+* `nltk.sem.batch_interpret()` &rarr; `nltk.sem.interpret_sents()`
+* `nltk.sem.batch_evaluate()` &rarr; `nltk.sem.evaluate_sents()`
 
 
 Changes in `nltk.probability.FreqDist`:
