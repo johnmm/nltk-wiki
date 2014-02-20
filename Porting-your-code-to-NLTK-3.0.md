@@ -40,6 +40,8 @@ Porter stemmer removed methods:
 * `nltk.stem.porter.PorterStemmer.r`
 * `nltk.stem.porter.PorterStemmer.setto`
 
+Removed modules and classes:
+
 * `nltk.classify.svm` was removed. For classification based on support vector machines (SVMs) use `nltk.classify.scikitlearn` or [scikit-learn](http://scikit-learn.org) directly. See https://github.com/nltk/nltk/issues/450.
 * `nltk.corpus.reader.wordnet._lcs_by_depth` was removed. See https://github.com/nltk/nltk/issues/422.
 * `nltk.probability.GoodTuringProbDist` class is removed. See https://github.com/nltk/nltk/issues/381.
