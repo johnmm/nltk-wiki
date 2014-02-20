@@ -36,21 +36,8 @@ Removed modules and classes:
 
 Porter stemmer changes:
 
-* `nltk.stem.porter.PorterStemmer.adjust_case` made private
-* `nltk.stem.porter.PorterStemmer.cons` made private
-* `nltk.stem.porter.PorterStemmer.cvc` made private
-* `nltk.stem.porter.PorterStemmer.doublec` made private
-* `nltk.stem.porter.PorterStemmer.m` made private
-* `nltk.stem.porter.PorterStemmer.step1ab` made private
-* `nltk.stem.porter.PorterStemmer.step1c` made private
-* `nltk.stem.porter.PorterStemmer.step2` made private
-* `nltk.stem.porter.PorterStemmer.step3` made private
-* `nltk.stem.porter.PorterStemmer.step4` made private
-* `nltk.stem.porter.PorterStemmer.step5` made private
-* `nltk.stem.porter.PorterStemmer.vowelinstem` made private
-* `nltk.stem.porter.PorterStemmer.ends` removed
-* `nltk.stem.porter.PorterStemmer.r` removed
-* `nltk.stem.porter.PorterStemmer.setto` removed
+* `adjust_case`, `cons`, `cvc`, `doublec`, `m`, `step1ab`, `step1c`, `step2`, `step3`, `step4`, `step5`, `vowelinstem` made private
+* `ends`, `r`, `setto` removed
 
 Miscellaneous changes:
 
