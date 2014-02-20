@@ -32,6 +32,7 @@ Removed modules and classes:
 * `nltk.sourcedstring` is removed. See https://github.com/nltk/nltk/issues/322.
 * `nltk.yamltags` is removed. JSON is now preferred instead. See https://github.com/nltk/nltk/issues/540
 * `nltk.mallet` is removed, including the `nltk.tag.crf` module. See https://github.com/nltk/nltk/issues/104
+* `nltk.tag.simplify` is removed. See https://github.com/nltk/nltk/issues/483
 
 Porter stemmer changes:
 
