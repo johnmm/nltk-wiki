@@ -11,7 +11,7 @@ Here are some changes you may need to make:
 * `nltk.util.ibigrams()` &rarr; `nltk.util.bigrams()`
 * `nltk.util.ingrams()` &rarr; `nltk.util.ngrams()`
 * `nltk.util.itrigrams()` &rarr; `nltk.util.trigrams()`
-* `nltk.metrics.windowdiff` &rarr; `nltk.metrics.segmentation.windowdiff()`, `nltk.metrics.windowdiff.demo` was removed.
+* `nltk.metrics.windowdiff` &rarr; `nltk.metrics.segmentation.windowdiff()`, `nltk.metrics.windowdiff.demo()` was removed.
 
 Changes in `nltk.probability.FreqDist`:
 
