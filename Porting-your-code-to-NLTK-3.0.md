@@ -13,9 +13,9 @@ Here are some changes you may need to make:
 * `fdist.Nr(r)` &rarr; `fdist.Nr()[r]`
 * `fdist.Nr_nonzero()` &rarr; `fdist.Nr().items()`
 * `cfdist.conditions()` &rarr; `sorted(cfdist.conditions())`
-* `nltk.util.ibigrams()` > `nltk.util.bigrams()`
-* `nltk.util.ingrams()` > `nltk.util.ngrams()`
-* `nltk.util.itrigrams()` > `nltk.util.trigrams()`
+* `nltk.util.ibigrams()` &rarr; `nltk.util.bigrams()`
+* `nltk.util.ingrams()` &rarr; `nltk.util.ngrams()`
+* `nltk.util.itrigrams()` &rarr; `nltk.util.trigrams()`
 
 Removed modules and classes:
 
