@@ -21,6 +21,11 @@ Changes in `nltk.probability.FreqDist`:
 * `fdist.Nr_nonzero()` &rarr; `fdist.Nr().items()`
 * `cfdist.conditions()` &rarr; `sorted(cfdist.conditions())`
 
+Porter stemmer changes:
+
+* `adjust_case()`, `cons()`, `cvc()`, `doublec()`, `m()`, `step1ab()`, `step1c()`, `step2()`, `step3()`, `step4()`, `step5()`, `vowelinstem` made private
+* `ends()`, `r()`, `setto` removed
+
 Removed modules and classes:
 
 * `nltk.classify.svm` was removed. For classification based on support vector machines (SVMs) use `nltk.classify.scikitlearn` or [scikit-learn](http://scikit-learn.org) directly. See https://github.com/nltk/nltk/issues/450.
@@ -33,11 +38,6 @@ Removed modules and classes:
 * `nltk.yamltags` is removed. JSON is now preferred instead. See https://github.com/nltk/nltk/issues/540
 * `nltk.mallet` is removed, including the `nltk.tag.crf` module. See https://github.com/nltk/nltk/issues/104
 * `nltk.tag.simplify` is removed. See https://github.com/nltk/nltk/issues/483
-
-Porter stemmer changes:
-
-* `adjust_case()`, `cons()`, `cvc()`, `doublec()`, `m()`, `step1ab()`, `step1c()`, `step2()`, `step3()`, `step4()`, `step5()`, `vowelinstem` made private
-* `ends()`, `r()`, `setto` removed
 
 Miscellaneous changes:
 
