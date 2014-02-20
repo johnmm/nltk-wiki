@@ -36,8 +36,8 @@ Removed modules and classes:
 
 Porter stemmer changes:
 
-* `adjust_case`, `cons`, `cvc`, `doublec`, `m`, `step1ab`, `step1c`, `step2`, `step3`, `step4`, `step5`, `vowelinstem` made private
-* `ends`, `r`, `setto` removed
+* `adjust_case`(), `cons`(), `cvc`(), `doublec`(), `m`(), `step1ab`(), `step1c`(), `step2`(), `step3`(), `step4`(), `step5`(), `vowelinstem` made private
+* `ends`(), `r`(), `setto` removed
 
 Miscellaneous changes:
 
