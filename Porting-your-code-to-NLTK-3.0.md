@@ -20,25 +20,23 @@ Changes in `nltk.probability.FreqDist`:
 * `fdist.Nr_nonzero()` &rarr; `fdist.Nr().items()`
 * `cfdist.conditions()` &rarr; `sorted(cfdist.conditions())`
 
-Porter stemmer methods made private:
+Porter stemmer changes:
 
-* `nltk.stem.porter.PorterStemmer.adjust_case`
-* `nltk.stem.porter.PorterStemmer.cons`
-* `nltk.stem.porter.PorterStemmer.cvc`
-* `nltk.stem.porter.PorterStemmer.doublec`
-* `nltk.stem.porter.PorterStemmer.m`
-* `nltk.stem.porter.PorterStemmer.step1ab`
-* `nltk.stem.porter.PorterStemmer.step1c`
-* `nltk.stem.porter.PorterStemmer.step2`
-* `nltk.stem.porter.PorterStemmer.step3`
-* `nltk.stem.porter.PorterStemmer.step4`
-* `nltk.stem.porter.PorterStemmer.step5`
-* `nltk.stem.porter.PorterStemmer.vowelinstem`
-
-Porter stemmer removed methods:
-* `nltk.stem.porter.PorterStemmer.ends`
-* `nltk.stem.porter.PorterStemmer.r`
-* `nltk.stem.porter.PorterStemmer.setto`
+* `nltk.stem.porter.PorterStemmer.adjust_case` made private
+* `nltk.stem.porter.PorterStemmer.cons` made private
+* `nltk.stem.porter.PorterStemmer.cvc` made private
+* `nltk.stem.porter.PorterStemmer.doublec` made private
+* `nltk.stem.porter.PorterStemmer.m` made private
+* `nltk.stem.porter.PorterStemmer.step1ab` made private
+* `nltk.stem.porter.PorterStemmer.step1c` made private
+* `nltk.stem.porter.PorterStemmer.step2` made private
+* `nltk.stem.porter.PorterStemmer.step3` made private
+* `nltk.stem.porter.PorterStemmer.step4` made private
+* `nltk.stem.porter.PorterStemmer.step5` made private
+* `nltk.stem.porter.PorterStemmer.vowelinstem` made private
+* `nltk.stem.porter.PorterStemmer.ends` removed
+* `nltk.stem.porter.PorterStemmer.r` removed
+* `nltk.stem.porter.PorterStemmer.setto` removed
 
 Removed modules and classes:
 
@@ -54,6 +52,12 @@ Removed modules and classes:
 * `nltk.sourcedstring` is removed.
 
 The way NLTK works with unicode is changed: NLTK3 requires all text input to be unicode and always return text as unicode. Previously, some functions and classes worked on unicode and others required encoded bytestrings. Please make sure you're passing unicode to NLTK and expecting unicode output from NLTK - existing code that assumes bytestrings may start to fail.
+
+Miscellaneous changes:
+
+* `nltk.probability.ConditionalProbDist.default_factory` now inherits from `dict` instead of `defaultdict`
+* `nltk.probability.ConditionalProbDistI.default_factory` now inherits from `dict` instead of `defaultdict`
+* `nltk.probability.DictionaryConditionalProbDist.default_factory` now inherits from `dict` instead of `defaultdict`
 
 More background on Python 3 and NLTK 3:
 
