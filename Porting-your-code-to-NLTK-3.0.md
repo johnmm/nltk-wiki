@@ -2,7 +2,7 @@ NLTK 3.0 contains a number of interface changes. These are being incorporated in
 
 Here are some changes you may need to make:
 
-* `Tree.node` &rarr; `Tree.label()` / `Tree.set_label()`
+* `nltk.draw.tree`: `TreeSegmentWidget.node` &rarr; `TreeSegmentWidget.label()`, `TreeSegmentWidget.set_node()` &rarr; `TreeSegmentWidget.set_label()`
 * Chunk parser: `top_node` &rarr; `root_label`; `chunk_node` &rarr; `chunk_label`
 * WordNet properties are now access methods, e.g. `Synset.definition` &rarr; `Synset.definition()`
 * `nltk.sem.relextract`: `mk_pairs()` &rarr; `_tree2semi_rel()`, `mk_reldicts()` &rarr; `semi_rel2reldict()`, `show_clause()` &rarr; `clause()`, `show_raw_rtuple()` &rarr; `rtuple()`
