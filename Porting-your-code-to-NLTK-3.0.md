@@ -5,7 +5,7 @@ Here are some changes you may need to make:
 * `Tree.node` &rarr; `Tree.label()` / `Tree.set_label()`
 * Chunk parser: `top_node` &rarr; `root_label`; `chunk_node` &rarr; `chunk_label`
 * WordNet properties are now access methods, e.g. `Synset.definition` &rarr; `Synset.definition()`
-* `nltk.sem.relextract`: `show_raw_rtuple()` &rarr; `rtuple()`, `show_clause()` &rarr; `clause()`
+* `nltk.sem.relextract`: `mk_pairs()` &rarr; `_tree2semi_rel()`, `mk_reldicts()` &rarr; `semi_rel2reldict()`, `show_clause()` &rarr; `clause()`, `show_raw_rtuple()` &rarr; `rtuple()`
 * `corpusname.tagged_words(simplify_tags=True)` &rarr; `corpusname.tagged_words(tagset='universal')`
 * `nltk.util.clean_html()` &rarr; `BeautifulSoup.get_text()`. `clean_html()` is now dropped, install & use BeautifulSoup or some other html parser instead.
 * `nltk.util.ibigrams()` &rarr; `nltk.util.bigrams()`
@@ -13,7 +13,6 @@ Here are some changes you may need to make:
 * `nltk.util.itrigrams()` &rarr; `nltk.util.trigrams()`
 * `nltk.metrics.windowdiff` &rarr; `nltk.metrics.segmentation.windowdiff()`, `nltk.metrics.windowdiff.demo()` was removed.
 * `nltk.parse.generate2` was re-written and merged into `nltk.parse.generate`
-* `nltk.sem.relextract`: `mk_pairs()` &rarr; `_tree2semi_rel()`, `mk_reldicts()` &rarr; `semi_rel2reldict()`, `show_clause()` &rarr; `clause()`, `show_raw_rtuple()` &rarr; `rtuple()`
 
 Changes in `nltk.probability.FreqDist`:
 
