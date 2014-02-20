@@ -14,6 +14,10 @@ Here are some changes you may need to make:
 * `nltk.util.itrigrams()` &rarr; `nltk.util.trigrams()`
 * `nltk.metrics.windowdiff` &rarr; `nltk.metrics.segmentation.windowdiff()`, `nltk.metrics.windowdiff.demo()` was removed.
 * `nltk.parse.generate2` was re-written and merged into `nltk.parse.generate`
+* `nltk.tokenize.batch_tokenize()` &rarr; `nltk.tokenize.tokenize_sents()`
+* `nltk.tag.batch_tag()` &rarr; `nltk.tag.tag_sents()`
+* `nltk.parse.batch_parse()` &rarr; `nltk.parse.parse_sents()`
+
 
 Changes in `nltk.probability.FreqDist`:
 
@@ -41,6 +45,7 @@ Removed modules and classes:
 * `nltk.yamltags` was removed. JSON is now preferred instead. See https://github.com/nltk/nltk/issues/540
 * `nltk.mallet` was removed, including the `nltk.tag.crf` module. See https://github.com/nltk/nltk/issues/104
 * `nltk.tag.simplify` was removed. See https://github.com/nltk/nltk/issues/483
+* `nltk.model` was removed. See https://github.com/nltk/nltk/issues?labels=model
 
 Miscellaneous changes:
 
