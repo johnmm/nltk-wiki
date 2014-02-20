@@ -30,14 +30,14 @@ Removed modules and classes:
 
 * `nltk.classify.svm` was removed. For classification based on support vector machines (SVMs) use `nltk.classify.scikitlearn` or [scikit-learn](http://scikit-learn.org) directly. See https://github.com/nltk/nltk/issues/450.
 * `nltk.corpus.reader.wordnet._lcs_by_depth` was removed. See https://github.com/nltk/nltk/issues/422.
-* `nltk.probability.GoodTuringProbDist` class is removed. See https://github.com/nltk/nltk/issues/381.
+* `nltk.probability.GoodTuringProbDist` class was removed. See https://github.com/nltk/nltk/issues/381.
 * `HiddenMarkovModelTaggerTransformI` and its subclasses are removed. See https://github.com/nltk/nltk/issues/374.
 * `nltk.classify.maxent` no longer support algorithms backed by `scipy.maxentropy`. See https://github.com/nltk/nltk/issues/321.
-* `nltk.misc.babelfish` is removed. See https://github.com/nltk/nltk/issues/265.
-* `nltk.sourcedstring` is removed. See https://github.com/nltk/nltk/issues/322.
-* `nltk.yamltags` is removed. JSON is now preferred instead. See https://github.com/nltk/nltk/issues/540
-* `nltk.mallet` is removed, including the `nltk.tag.crf` module. See https://github.com/nltk/nltk/issues/104
-* `nltk.tag.simplify` is removed. See https://github.com/nltk/nltk/issues/483
+* `nltk.misc.babelfish` was removed. See https://github.com/nltk/nltk/issues/265.
+* `nltk.sourcedstring` was removed. See https://github.com/nltk/nltk/issues/322.
+* `nltk.yamltags` was removed. JSON is now preferred instead. See https://github.com/nltk/nltk/issues/540
+* `nltk.mallet` was removed, including the `nltk.tag.crf` module. See https://github.com/nltk/nltk/issues/104
+* `nltk.tag.simplify` was removed. See https://github.com/nltk/nltk/issues/483
 
 Miscellaneous changes:
 
