@@ -16,6 +16,7 @@ Changes in `nltk.probability.FreqDist`:
 
 * `fdist.keys()` &rarr; `sorted(fdist)`
 * `fdist.inc(x)` &rarr; `fdist[x] += 1`
+* `fdist.samples()` &rarr; `sorted(fdist.keys())`
 * `fdist.Nr(r)` &rarr; `fdist.Nr()[r]`
 * `fdist.Nr_nonzero()` &rarr; `fdist.Nr().items()`
 * `cfdist.conditions()` &rarr; `sorted(cfdist.conditions())`
