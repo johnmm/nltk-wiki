@@ -8,14 +8,16 @@ Here are some changes you may need to make:
 * relextract: `show_raw_rtuple()` &rarr; `rtuple()`, `show_clause()` &rarr; `clause()`
 * `corpusname.tagged_words(simplify_tags=True)` &rarr; `corpusname.tagged_words(tagset='universal')`
 * `clean_html()` &rarr; `BeautifulSoup.get_text()` (`clean_html()` is now dropped, install & use BeautifulSoup or some other html parser instead)
+* `nltk.util.ibigrams()` &rarr; `nltk.util.bigrams()`
+* `nltk.util.ingrams()` &rarr; `nltk.util.ngrams()`
+* `nltk.util.itrigrams()` &rarr; `nltk.util.trigrams()`
+
+Changes in `nltk.probability.FreqDist`:
 * `fdist.keys()` &rarr; `sorted(fdist)`
 * `fdist.inc(x)` &rarr; `fdist[x] += 1`
 * `fdist.Nr(r)` &rarr; `fdist.Nr()[r]`
 * `fdist.Nr_nonzero()` &rarr; `fdist.Nr().items()`
 * `cfdist.conditions()` &rarr; `sorted(cfdist.conditions())`
-* `nltk.util.ibigrams()` &rarr; `nltk.util.bigrams()`
-* `nltk.util.ingrams()` &rarr; `nltk.util.ngrams()`
-* `nltk.util.itrigrams()` &rarr; `nltk.util.trigrams()`
 
 Removed modules and classes:
 
