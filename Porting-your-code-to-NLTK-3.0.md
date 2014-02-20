@@ -13,13 +13,32 @@ Here are some changes you may need to make:
 * `nltk.util.itrigrams()` &rarr; `nltk.util.trigrams()`
 
 Changes in `nltk.probability.FreqDist`:
+
 * `fdist.keys()` &rarr; `sorted(fdist)`
 * `fdist.inc(x)` &rarr; `fdist[x] += 1`
 * `fdist.Nr(r)` &rarr; `fdist.Nr()[r]`
 * `fdist.Nr_nonzero()` &rarr; `fdist.Nr().items()`
 * `cfdist.conditions()` &rarr; `sorted(cfdist.conditions())`
 
-Removed modules and classes:
+Porter stemmer methods made private:
+
+* `nltk.stem.porter.PorterStemmer.adjust_case`
+* `nltk.stem.porter.PorterStemmer.cons`
+* `nltk.stem.porter.PorterStemmer.cvc`
+* `nltk.stem.porter.PorterStemmer.doublec`
+* `nltk.stem.porter.PorterStemmer.m`
+* `nltk.stem.porter.PorterStemmer.step1ab`
+* `nltk.stem.porter.PorterStemmer.step1c`
+* `nltk.stem.porter.PorterStemmer.step2`
+* `nltk.stem.porter.PorterStemmer.step3`
+* `nltk.stem.porter.PorterStemmer.step4`
+* `nltk.stem.porter.PorterStemmer.step5`
+* `nltk.stem.porter.PorterStemmer.vowelinstem`
+
+Porter stemmer removed methods:
+* `nltk.stem.porter.PorterStemmer.ends`
+* `nltk.stem.porter.PorterStemmer.r`
+* `nltk.stem.porter.PorterStemmer.setto`
 
 * `nltk.classify.svm` was removed. For classification based on support vector machines (SVMs) use `nltk.classify.scikitlearn` or [scikit-learn](http://scikit-learn.org) directly. See https://github.com/nltk/nltk/issues/450.
 * `nltk.corpus.reader.wordnet._lcs_by_depth` was removed. See https://github.com/nltk/nltk/issues/422.
