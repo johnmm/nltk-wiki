@@ -13,6 +13,7 @@ Here are some changes you may need to make:
 * `nltk.util.itrigrams()` &rarr; `nltk.util.trigrams()`
 * `nltk.metrics.windowdiff` &rarr; `nltk.metrics.segmentation.windowdiff()`, `nltk.metrics.windowdiff.demo()` was removed.
 * `nltk.parse.generate2` was re-written and merged into `nltk.parse.generate`
+* `nltk.sem.relextract`: `mk_pairs()` &rarr; `_tree2semi_rel()`, `mk_reldicts()` &rarr; `semi_rel2reldict()`, `show_clause()` &rarr; `clause()`, `show_raw_rtuple()` &rarr; `rtuple()`
 
 Changes in `nltk.probability.FreqDist`:
 
