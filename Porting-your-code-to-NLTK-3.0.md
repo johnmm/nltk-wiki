@@ -12,6 +12,7 @@ Here are some changes you may need to make:
 * `nltk.util.ingrams()` &rarr; `nltk.util.ngrams()`
 * `nltk.util.itrigrams()` &rarr; `nltk.util.trigrams()`
 * `nltk.metrics.windowdiff` &rarr; `nltk.metrics.segmentation.windowdiff()`, `nltk.metrics.windowdiff.demo()` was removed.
+* `nltk.parse.generate2` was re-written and merged into `nltk.parse.generate`
 
 Changes in `nltk.probability.FreqDist`:
 
