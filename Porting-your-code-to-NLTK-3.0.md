@@ -29,7 +29,6 @@ Removed modules and classes:
 * `nltk.yamltags` is removed. JSON is now preferred instead. See https://github.com/nltk/nltk/issues/540
 * `nltk.mallet` is removed, including the `nltk.tag.crf` module. See https://github.com/nltk/nltk/issues/104
 * `nltk.sourcedstring` is removed.
-* `nltk.classify.svm` is removed. For classification based on support vector machines SVMs use `nltk.classify.scikitlearn` (or `scikit-learn <http://scikit-learn.org>`_ directly).
 
 The way NLTK works with unicode is changed: NLTK3 requires all text input to be unicode and always return text as unicode. Previously, some functions and classes worked on unicode and others required encoded bytestrings. Please make sure you're passing unicode to NLTK and expecting unicode output from NLTK - existing code that assumes bytestrings may start to fail.
 
