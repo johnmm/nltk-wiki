@@ -11,5 +11,11 @@ Thanks
 OK - I fixed the shortterm problem by installing numpy...but, more generally, how to ask for help? 
 
 And can I remark that describing numpy as "optional" in the installations instructions is a bit disingenuous, given that it;s needed for the home page demo.
+
+Next:
+ImportError: cannot import name MaxentClassifier
+
+Still trying to run that homepage demo...
+
  
 
