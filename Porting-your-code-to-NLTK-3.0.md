@@ -20,7 +20,7 @@ Here are some changes you may need to make:
 * `nltk.classify.batch_classify()` &rarr; `nltk.classify.classify_many()`
 * `nltk.sem.batch_interpret()` &rarr; `nltk.sem.interpret_sents()`
 * `nltk.sem.batch_evaluate()` &rarr; `nltk.sem.evaluate_sents()`
-
+* `nltk.tree.Tree.parse()` &rarr; `nltk.tree.Tree._read()`
 
 Changes in `nltk.probability.FreqDist`:
 
