@@ -21,6 +21,7 @@ Here are some changes you may need to make:
 * `nltk.sem.batch_interpret()` &rarr; `nltk.sem.interpret_sents()`
 * `nltk.sem.batch_evaluate()` &rarr; `nltk.sem.evaluate_sents()`
 * `nltk.tree.Tree.parse()` &rarr; `nltk.tree.Tree._read()`
+* `nltk.chunk.RegexpChunkRule.parse()` &rarr; `nltk.chunkRegexpChunkRule.read()`
 
 Changes in `nltk.probability.FreqDist`:
 
