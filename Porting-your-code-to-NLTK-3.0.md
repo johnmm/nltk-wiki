@@ -16,14 +16,21 @@ Here are some changes you may need to make:
 * `nltk.util.itrigrams()` &rarr; `nltk.util.trigrams()`
 * `nltk.metrics.windowdiff` &rarr; `nltk.metrics.segmentation.windowdiff()`, `nltk.metrics.windowdiff.demo()` was removed.
 * `nltk.parse.generate2` was re-written and merged into `nltk.parse.generate`
+
+Creating objects from strings:
+
+* Many objects now support a `fromstring()` method
+* `nltk.tree.Tree.parse()` &rarr; `nltk.tree.Tree.fromstring()`
+* `nltk.chunk.RegexpChunkRule.parse()` &rarr; `nltk.chunkRegexpChunkRule.fromstring()`
+* `nltk.grammar.parse_cfg()` &rarr; `nltk.ContextFreeGrammar.fromstring()` (same for other types of grammar)
+
+Operations on lists of sentences or other items:
 * `nltk.tokenize.batch_tokenize()` &rarr; `nltk.tokenize.tokenize_sents()`
 * `nltk.tag.batch_tag()` &rarr; `nltk.tag.tag_sents()`
 * `nltk.parse.batch_parse()` &rarr; `nltk.parse.parse_sents()`
 * `nltk.classify.batch_classify()` &rarr; `nltk.classify.classify_many()`
 * `nltk.sem.batch_interpret()` &rarr; `nltk.sem.interpret_sents()`
 * `nltk.sem.batch_evaluate()` &rarr; `nltk.sem.evaluate_sents()`
-* `nltk.tree.Tree.parse()` &rarr; `nltk.tree.Tree._read()`
-* `nltk.chunk.RegexpChunkRule.parse()` &rarr; `nltk.chunkRegexpChunkRule.read()`
 
 Changes in `nltk.probability.FreqDist`:
 
