@@ -4,6 +4,7 @@ The way NLTK works with unicode is changed: NLTK3 requires all text input to be 
 
 Here are some changes you may need to make:
 
+* `nltk.grammar`: `ContextFreeGrammar` &rarr; `CFG`, `WeightedGrammar` &rarr; `PCFG`, `StatisticalDependencyGrammar` &rarr; `ProbabilisticDependencyGrammar`
 * `nltk.draw.tree`: `TreeSegmentWidget.node()` &rarr; `TreeSegmentWidget.label()`, `TreeSegmentWidget.set_node()` &rarr; `TreeSegmentWidget.set_label()`
 * `nltk.ccg.parse.chart`: `EdgeI.next()` &rarr; `EdgeI.nextsym()`
 * Chunk parser: `top_node` &rarr; `root_label`; `chunk_node` &rarr; `chunk_label`
