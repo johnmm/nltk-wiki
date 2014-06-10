@@ -22,6 +22,7 @@ Creating objects from strings:
 
 * Many objects now support a `fromstring()` method
 * `nltk.tree.Tree.parse()` &rarr; `nltk.tree.Tree.fromstring()`
+* `nltk.tree.Tree()` &rarr; `nltk.tree.Tree.fromstring()`
 * `nltk.chunk.RegexpChunkRule.parse()` &rarr; `nltk.chunkRegexpChunkRule.fromstring()`
 * `nltk.grammar.parse_cfg()` &rarr; `nltk.ContextFreeGrammar.fromstring()` (same for other types of grammar)
 
