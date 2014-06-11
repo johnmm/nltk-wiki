@@ -25,6 +25,8 @@ Creating objects from strings:
 * `nltk.tree.Tree()` &rarr; `nltk.tree.Tree.fromstring()`
 * `nltk.chunk.RegexpChunkRule.parse()` &rarr; `nltk.chunkRegexpChunkRule.fromstring()`
 * `nltk.grammar.parse_cfg()` &rarr; `nltk.ContextFreeGrammar.fromstring()` (same for other types of grammar)
+* `nltk.sem.LogicParser.parse()` &rarr; `nltk.sem.Expression.fromstring()`
+* `nltk.sem.DrtParser.parse()` &rarr; `nltk.sem.DrtExpression.fromstring()`
 
 Operations on lists of sentences or other items:
 * `nltk.tokenize.batch_tokenize()` &rarr; `nltk.tokenize.tokenize_sents()`
