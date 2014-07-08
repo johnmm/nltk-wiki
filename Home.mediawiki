@@ -21,6 +21,7 @@
 * [[Integration Testing]]
 * [[API Changes for Python 3]]
 * [[Machine Translation]]
+* [[Sentiment Analysis]]
 
 == Pages to be incorporated here ==
 
