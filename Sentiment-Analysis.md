@@ -5,6 +5,8 @@ The most straightforward approaches are based on polarity lexicons, so the obvio
 * SentiWordNet
 * Wiebe et al's Subjectivity Lexicon
 
+It is probably worth illustrating sentiment analysis with both longer texts (e.g. movie review corpus) and shorter ones (e.g. Tweets).
+
 
 
 
