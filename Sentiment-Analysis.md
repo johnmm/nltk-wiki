@@ -11,9 +11,9 @@ The most straightforward approaches are based on polarity lexicons, so the obvio
 
 It is probably worth illustrating sentiment analysis with both longer texts (e.g. movie review corpus) and shorter ones (e.g. Tweets).
 
-* (Twitter Sentiment)[http://www.sananalytics.com/lab/twitter-sentiment/]
+* [Twitter Sentiment](http://www.sananalytics.com/lab/twitter-sentiment/)
 
-* (NLTK Movie review corpus)[http://nltk.github.com/nltk_data/packages/corpora/movie_reviews.zip]
+* [NLTK Movie review corpus](http://nltk.github.com/nltk_data/packages/corpora/movie_reviews.zip)
 
 
 
