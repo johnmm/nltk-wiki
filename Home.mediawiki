@@ -23,6 +23,7 @@
 * [[Dependency Parsing]]
 * [[Machine Translation]]
 * [[Sentiment Analysis]]
+* [[Twitter Processing]]
 
 == Pages to be incorporated here ==
 
