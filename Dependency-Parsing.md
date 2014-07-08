@@ -13,4 +13,5 @@ Existing functionality is in the [https://github.com/nltk/nltk/tree/develop/nltk
 
 ## Planned functionality
 
-* corpus reader for the Universal Dependency Treebank, https://github.com/nltk/nltk/issues/693]
+* corpus reader for the Universal Dependency Treebank, https://github.com/nltk/nltk/issues/693
+* Nivre's arc-eager and arc-standard algorithms, https://github.com/nltk/nltk/issues/694
