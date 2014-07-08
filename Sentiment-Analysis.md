@@ -12,9 +12,5 @@ We would like to add functionality in the following areas:
 
 ## Useful links
 
-* [http://www.cs.cornell.edu/home/llee/omsa/omsa-published.pdf Pang and Lee, 'Opinion mining and sentiment analysis]
+* [http://www.cs.cornell.edu/home/llee/omsa/omsa-published.pdf Pang and Lee, 'Opinion mining and sentiment analysis']
 * [http://www.cs.uic.edu/~liub/FBS/NLP-handbook-sentiment-analysis.pdf Liu (2010) 'Sentiment Analysis and Subjectivity']
-
-
-
-[http://www.cs.cornell.edu/home/llee/omsa/omsa-published.pdf]
