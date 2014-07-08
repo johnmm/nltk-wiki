@@ -1,12 +1,10 @@
 Sentiment analysis has a wide appeal as providing information about the subjective dimension of texts. It can be regarded as a classification technique, either binary (polarity classification) or multi-class categorization. 
 
-## Existing functionality
+The most straightforward approaches are based on polarity lexicons, so the obvious first step is to add some of these to the NLTK data repository. E.g.
 
+* SentiWordNet
+* Wiebe et al's Subjectivity Lexicon
 
-
-## Planned functionality
-
-We would like to add functionality in the following areas:
 
 
 
