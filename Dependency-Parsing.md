@@ -2,7 +2,7 @@ Dependency parsing is a popular approach to natural language parsing. NLTK inclu
 
 ## Existing functionality
 
-Existing functionality is in the [https://github.com/nltk/nltk/tree/develop/nltk/parse](parse package). It includes:
+Existing functionality is in the [parse package](https://github.com/nltk/nltk/tree/develop/nltk/parse). It includes:
 
 * projective dependency parser (similar to Eisner 1996)
 * probabilistic projective dependency parser (Eisner 1996 Model C)
