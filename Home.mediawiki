@@ -20,6 +20,7 @@
 * [[Developers Guide]]
 * [[Integration Testing]]
 * [[API Changes for Python 3]]
+* [[Machine Translation]]
 
 == Pages to be incorporated here ==
 
