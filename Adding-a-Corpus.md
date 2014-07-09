@@ -21,7 +21,7 @@ To add a corpus to NLTK, please follow these steps:
   * identify the source of the corpus (e.g. a URL)
   * suggest an NLTK name for the corpus (a short string, use underscore to separate multiple words, cf [existing names](https://github.com/nltk/nltk_data/tree/gh-pages/packages/corpora))
   * identify an existing corpus reader for the corpus, or else explain how you plan to create one
-  * document the fact that the corpus is freely redistributable (e.g. available under a Creative Commons ShareAlike license; or invite it's creator to add a comment via the issue tracker).
+  * document the fact that the corpus is freely redistributable (e.g. available under a Creative Commons ShareAlike license; or invite its creator to add a comment via the issue tracker).
   * wait for approval from someone in the [NLTK team](https://github.com/orgs/nltk/teams/team-nltk).
 
 3. Prepare a pull request to the nltk_data repository:
