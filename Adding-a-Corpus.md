@@ -35,6 +35,8 @@ To add a corpus to NLTK, please follow these steps:
   * add the corpus name to `/collections/all.xml`
   * push this to your fork and submit a pull request, referencing the issue from step 1
 
+(In response to this pull request, an NLTK developer needs to review the request, before running `make` in the top level of the nltk_data repository (gh-pages branch)).
+
 4. If necessary, prepare a corpus reader:
   * fork the nltk repository: https://github.com/nltk/nltk/fork
   * clone the repository (make sure you are on the `develop` branch)
