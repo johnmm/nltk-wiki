@@ -31,16 +31,7 @@ To add a corpus to NLTK, please follow these steps:
   * include a `README.txt` file at the top level, with the corpus name and source URL at the top
   * make sure there are no extraneous files like `.svn` or `README.txt~`
   * `zip -r corpus_name corpus_name`
-  * create `corpus_name.xml` with content as follows; specify `unzip="1"` if the corpus reader requires the data to be unzipped after being installed (usually not necessary).
-```
-<package id="<corpus_name>" name="<Corpus Name>"
-         copyright="Copyright (C) <YEAR> <NAME>"
-         author="<NAME>"
-         license="<LICENSE NAME OR URL>"
-         webpage="<URL FOR CORPUS>"
-         unzip="0"
-         />
-```
+  * create `corpus_name.xml` using the metadata template (see below); specify `unzip="1"` if the corpus reader requires the data to be unzipped after being installed (usually not necessary).
   * add the corpus name to `/collections/all.xml`
   * push this to your fork and submit a pull request, referencing the issue from step 1
 
@@ -50,3 +41,16 @@ To add a corpus to NLTK, please follow these steps:
   * add the corpus reader in `nltk/nltk/corpus/reader`
   * add an entry in `nltk/corpus/__init__.py`
   * push this to your fork and submit a pull request, referencing the issue from step 1
+
+### Metadata Template
+
+```
+<package id="<corpus_name>" name="<Corpus Name>"
+         copyright="Copyright (C) <YEAR> <NAME>"
+         author="<NAME>"
+         license="<LICENSE NAME OR URL>"
+         webpage="<URL FOR CORPUS>"
+         unzip="0"
+         />
+```
+
