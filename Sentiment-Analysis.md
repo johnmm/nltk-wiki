@@ -1,11 +1,15 @@
-Sentiment analysis has a wide appeal as providing information about the subjective dimension of texts. It can be regarded as a classification technique, either binary (polarity classification) or multi-class categorization. 
+Sentiment analysis has a wide appeal as providing information about the subjective dimension of texts. It can be regarded as a classification technique, either binary (polarity classification into positive/negative) or multi-class categorization (e.g. positive/neutral/negative) . 
 
-The most straightforward approaches are based on polarity lexicons, so the obvious first step is to add some of these to the NLTK data repository. 
+Most approaches use a sentiment lexicon as a component (sometimes the only component). Lexicons can either be general purpose, or extracted from a suitable corpus, such as movie reviews with explicit ranking information.
 
-## Lexicons
+## General Lexicons
 
-* SentiWordNet
-* Wiebe et al's Subjectivity Lexicon
+The following seem to be easily available and have suitable licences:
+
+* SentiWordNet (CC-BY-SA)
+* Wiebe et al's Subjectivity Lexicon (GPL)
+
+There may well be other useful lexical resources that we could adopt.
 
 ## Training / Testing Data
 
