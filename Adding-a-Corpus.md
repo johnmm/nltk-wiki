@@ -14,6 +14,7 @@ To add a corpus to NLTK, please follow these steps:
   * put a copy in your local nltk_data directory. The default system location on Windows is `C:\nltk_data\corpora`; and on Mac and Unix is `/usr/share/nltk_data/corpora`.
   * modify NLTK to support the corpus (see step 4 below)
   * open a Python interpreter and check that you can access the corpus, e.g. `from nltk.corpus import corpus_name`
+
 2. Post a new entry to the nltk_data issue tracker:
   * https://github.com/nltk/nltk_data/issues/new
   * include the corpus name in the title
@@ -22,6 +23,7 @@ To add a corpus to NLTK, please follow these steps:
   * identify an existing corpus reader for the corpus, or else explain how you plan to create one
   * document the fact that the corpus is freely redistributable (e.g. available under a Creative Commons ShareAlike license; or invite it's creator to add a comment via the issue tracker).
   * wait for approval from someone in the [NLTK team](https://github.com/orgs/nltk/teams/team-nltk).
+
 3. Prepare a pull request to the nltk_data repository:
   * fork the nltk_data repository: https://github.com/nltk/nltk_data/fork
   * clone the repository and check out the `gh-pages` branch
@@ -41,6 +43,7 @@ To add a corpus to NLTK, please follow these steps:
 ```
   * add the corpus name to `/collections/all.xml`
   * push this to your fork and submit a pull request, referencing the issue from step 1
+
 4. If necessary, prepare a corpus reader:
   * fork the nltk repository: https://github.com/nltk/nltk/fork
   * clone the repository (make sure you are on the `develop` branch)
