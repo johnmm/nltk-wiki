@@ -20,6 +20,7 @@
 * [[Developers Guide]]
 * [[Integration Testing]]
 * [[API Changes for Python 3]]
+* [[Adding a Corpus]]
 * [[Dependency Parsing]]
 * [[Machine Translation]]
 * [[Sentiment Analysis]]
