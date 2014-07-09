@@ -25,9 +25,11 @@ To add a corpus to NLTK, please follow these steps:
   * include a `README.txt` file at the top level, with the corpus name and source URL at the top
   * make sure there are no extraneous files like `.svn` or `README.txt~`
   * `zip -r corpus_name corpus_name`
-  * push this to your fork and submit a pull request, referencing the issue
+  * push this to your fork and submit a pull request, referencing the issue from step 1
 3. If necessary, prepare a corpus reader:
   * fork the nltk_data repository: https://github.com/nltk/nltk/fork
   * clone the repository (make sure you are on the `develop` branch)
   * add the corpus reader in `nltk/nltk/corpus/reader`
   * add an entry in `nltk/corpus/__init__.py`
+  * push this to your fork and submit a pull request, referencing the issue from step 1
+
