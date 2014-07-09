@@ -10,7 +10,11 @@ If there is not yet a suitable corpus reader, you will need to create one, and s
 
 To add a corpus to NLTK, please follow these steps:
 
-1. Post a new entry to the nltk_data issue tracker:
+1. Test that you can access the corpus using NLTK:
+  * put a copy in your local nltk_data directory. The default system location on Windows is `C:\nltk_data\corpora`; and on Mac and Unix is `/usr/share/nltk_data/corpora`.
+  * modify NLTK to support the corpus (see step 4 below)
+  * open a Python interpreter and check that you can access the corpus, e.g. `from nltk.corpus import corpus_name`
+2. Post a new entry to the nltk_data issue tracker:
   * https://github.com/nltk/nltk_data/issues/new
   * include the corpus name in the title
   * identify the source of the corpus (e.g. a URL)
@@ -18,16 +22,27 @@ To add a corpus to NLTK, please follow these steps:
   * identify an existing corpus reader for the corpus, or else explain how you plan to create one
   * document the fact that the corpus is freely redistributable (e.g. available under a Creative Commons ShareAlike license; or invite it's creator to add a comment via the issue tracker).
   * wait for approval from someone in the [NLTK team](https://github.com/orgs/nltk/teams/team-nltk).
-2. Prepare a pull request to the nltk_data repository:
+3. Prepare a pull request to the nltk_data repository:
   * fork the nltk_data repository: https://github.com/nltk/nltk_data/fork
   * clone the repository and check out the `gh-pages` branch
   * `mkdir packages/corpora/corpus_name` (using the corpus name agreed in step 1 above)
   * include a `README.txt` file at the top level, with the corpus name and source URL at the top
   * make sure there are no extraneous files like `.svn` or `README.txt~`
   * `zip -r corpus_name corpus_name`
+  * create `corpus_name.xml` with content as follows; specify `unzip="1"` if the corpus reader requires the data to be unzipped after being installed (usually not necessary).
+```
+<package id="<corpus_name>" name="<Corpus Name>"
+         copyright="Copyright (C) <YEAR> <NAME>"
+         author="<NAME>"
+         license="<LICENSE NAME OR URL>"
+         webpage="<URL FOR CORPUS>"
+         unzip="0"
+         />
+```
+  * add the corpus name to `/collections/all.xml`
   * push this to your fork and submit a pull request, referencing the issue from step 1
-3. If necessary, prepare a corpus reader:
-  * fork the nltk_data repository: https://github.com/nltk/nltk/fork
+4. If necessary, prepare a corpus reader:
+  * fork the nltk repository: https://github.com/nltk/nltk/fork
   * clone the repository (make sure you are on the `develop` branch)
   * add the corpus reader in `nltk/nltk/corpus/reader`
   * add an entry in `nltk/corpus/__init__.py`
