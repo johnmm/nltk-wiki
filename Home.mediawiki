@@ -25,6 +25,7 @@
 * [[Machine Translation]]
 * [[Semantic Role Labeling]]
 * [[Sentiment Analysis]]
+* [[Topic Modeling]]
 * [[Twitter Processing]]
 
 == Pages to be incorporated here ==
