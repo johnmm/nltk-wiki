@@ -15,6 +15,7 @@ We would like to add functionality in the following areas:
 * Decoder for word-based models
 * Phrase-based models
 * Decoder for phrase-based models
+* [Visualization of word alignments](https://github.com/nltk/nltk/issues/684)
 
 ## Useful links
 
