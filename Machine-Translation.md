@@ -17,6 +17,12 @@ We would like to add functionality in the following areas:
 * Decoder for phrase-based models
 * [Visualization of word alignments](https://github.com/nltk/nltk/issues/684)
 
+## Third-party implementations
+
+Existing Python implementations that could possibly be incorporated into NLTK
+
+* ?
+
 ## Useful links
 
 * `http://www.statmt.org/`
