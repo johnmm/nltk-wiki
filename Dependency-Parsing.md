@@ -13,3 +13,4 @@ Existing functionality is in the [parse package](https://github.com/nltk/nltk/tr
 
 * [corpus reader for the Universal Dependency Treebank](https://github.com/nltk/nltk/issues/693)
 * [Nivre's arc-eager and arc-standard algorithms](https://github.com/nltk/nltk/issues/694)
+* [Visualization of dependency trees](https://github.com/nltk/nltk/issues/684)
