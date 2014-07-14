@@ -25,4 +25,5 @@ Existing Python implementations that could possibly be incorporated into NLTK
 
 ## Useful links
 
-* `http://www.statmt.org/`
+* https://github.com/nltk/nltk/issues?labels=SMT
+* http://www.statmt.org/
