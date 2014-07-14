@@ -1,4 +1,4 @@
-Statistical machine translation is a rapidly growing area within Computational Linguistics. NLTK should provide a pathway for students who want to learn about the basic algorithms.
+Statistical machine translation (SMT) is a rapidly growing area within Computational Linguistics. NLTK should provide a pathway for students who want to learn about the basic algorithms. [View NLTK activity on SMT](https://github.com/nltk/nltk/issues?labels=SMT)
 
 ## Existing functionality
 
@@ -25,5 +25,4 @@ Existing Python implementations that could possibly be incorporated into NLTK
 
 ## Useful links
 
-* https://github.com/nltk/nltk/issues?labels=SMT
 * http://www.statmt.org/
