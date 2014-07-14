@@ -23,6 +23,7 @@
 * [[Adding a Corpus]]
 * [[Dependency Parsing]]
 * [[Machine Translation]]
+* [[Semantic Role Labeling]]
 * [[Sentiment Analysis]]
 * [[Twitter Processing]]
 
