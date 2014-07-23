@@ -19,8 +19,8 @@
 
 * [[Developers Guide]]
 * [[Integration Testing]]
-* [[API Changes for Python 3]]
 * [[Adding a Corpus]]
+* [[Book Development]]
 * [[Dependency Parsing]]
 * [[Machine Translation]]
 * [[Semantic Role Labeling]]
