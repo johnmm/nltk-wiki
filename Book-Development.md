@@ -17,7 +17,7 @@
     6. Summary
     7. Further Reading
     8. Exercises
-3 Processing Raw Text
+3. Processing Raw Text
     1. Accessing Text from the Web and from Disk
     2. Strings: Text Processing at the Lowest Level
     3. Text Processing with Unicode
@@ -30,7 +30,7 @@
     10. Summary
     11. Further Reading
     12. Exercises
-4 Writing Structured Programs
+4. Writing Structured Programs
     1. Back to the Basics
     2. Sequences
     3. Questions of Style
