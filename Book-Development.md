@@ -2,6 +2,8 @@ This page documents our plans for the development of the NLTK book, leading to a
 
 ![Book development plan](https://github.com/nltk/nltk_book/blob/master/images/2nd_ed_plan.png)
 
+0. **Preface**
+    * talk about Python 3 (version 2.6,7 still supported)
 1. **Language Processing and Python**
     1. Computing with Language: Texts and Words
     2. A Closer Look at Python: Texts as Lists of Words
@@ -22,20 +24,20 @@ This page documents our plans for the development of the NLTK book, leading to a
     7. Further Reading
     8. Exercises
 3. **Processing Raw Text**
-    1. Accessing Text from the Web and from Disk
+    1. Accessing Text from the Web and from Disk (_add Twitter_)
     2. Strings: Text Processing at the Lowest Level
-    3. Text Processing with Unicode
+    3. Text Processing with Unicode _updated for Python 3 including bytes type_
     4. Regular Expressions for Detecting Word Patterns
     5. Useful Applications of Regular Expressions
-    6. Normalizing Text
+    6. Normalizing Text (_add Twitter_)
     7. Regular Expressions for Tokenizing Text
     8. Segmentation
-    9. Formatting: From Lists to Strings
+    9. Formatting: From Lists to Strings (_update to use string.format_)
     10. _Scaling up (incl how to use the Stanford tokenizer)_
     11. Summary
     12. Further Reading
     13. Exercises
-4. **Writing Structured Programs**
+4. **Writing Structured Programs** _updates for Python 3 including new view types, integer division_
     1. Back to the Basics
     2. Sequences
     3. Questions of Style
@@ -68,6 +70,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     6. Maximum Entropy Classifiers
     7. Modeling Linguistic Patterns
     8. _Sentiment Detection (incl sentiwordnet); here or in chapter 7_
+    9. _Clustering and similarity including distributional models_
     8. Summary
     9. Further Reading
     10. Exercises
@@ -109,6 +112,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     3. First-Order Logic
     4. The Semantics of English Sentences
     5. Discourse Semantics
+    6. _Machine Learning for Language Understanding (possibly reduce some of the discussion for model theoretic semantics)_
     6. Summary
     7. Further Reading
     8. Exercises
