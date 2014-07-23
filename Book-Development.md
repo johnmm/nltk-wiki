@@ -4,6 +4,7 @@
     3. Computing with Language: Simple Statistics
     4. Back to Python: Making Decisions and Taking Control
     5. Automatic Natural Language Understanding
+        * _replace babelize example with web link_
     6. Summary
     7. Further Reading
     8. Exercises
