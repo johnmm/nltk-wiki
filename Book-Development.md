@@ -110,3 +110,5 @@
     7. Summary
     8. Further Reading
     9. Exercises
+
+![Book development plan](https://github.com/nltk/nltk_book/blob/master/images/2nd_ed_plan.png)
