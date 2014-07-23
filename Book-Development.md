@@ -13,10 +13,10 @@ This page documents our plans for the development of the NLTK book, leading to a
     7. Further Reading
     8. Exercises
 2. **Accessing Text Corpora and Lexical Resources**
-    1. Accessing Text Corpora _mention NomBank and PropBank_
+    1. Accessing Text Corpora _mention NomBank, PropBank, ChaSen, KNBC Japanese_
     2. Conditional Frequency Distributions
     3. More Python: Reusing Code
-    4. Lexical Resources _add FrameNet, VerbNet_
+    4. Lexical Resources _add FrameNet, VerbNet, Lin's Dependency Thesaurus_
     5. WordNet _add Open Multilingual WordNet_
     6. Summary
     7. Further Reading
