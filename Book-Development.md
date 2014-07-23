@@ -8,7 +8,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     3. Computing with Language: Simple Statistics
     4. Back to Python: Making Decisions and Taking Control
     5. Automatic Natural Language Understanding
-        * _replace babelize example with web link_
+        * <font color="blue">_replace babelize example with web link_</font>
     6. Summary
     7. Further Reading
     8. Exercises
