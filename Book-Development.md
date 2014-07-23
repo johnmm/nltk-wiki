@@ -17,7 +17,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     2. Conditional Frequency Distributions
     3. More Python: Reusing Code
     4. Lexical Resources
-    5. WordNet
+    5. WordNet _add Open Multilingual Wordnet_
     6. Summary
     7. Further Reading
     8. Exercises
@@ -67,6 +67,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     5. Naive Bayes Classifiers
     6. Maximum Entropy Classifiers
     7. Modeling Linguistic Patterns
+    8. _Sentiment Detection (incl sentiwordnet); here or in chapter 7_
     8. Summary
     9. Further Reading
     10. Exercises
