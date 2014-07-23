@@ -8,7 +8,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     3. Computing with Language: Simple Statistics
     4. Back to Python: Making Decisions and Taking Control
     5. Automatic Natural Language Understanding
-        * <font color="blue">_replace babelize example with web link_</font>
+        * _replace babelize example with web link_
     6. Summary
     7. Further Reading
     8. Exercises
@@ -16,8 +16,8 @@ This page documents our plans for the development of the NLTK book, leading to a
     1. Accessing Text Corpora
     2. Conditional Frequency Distributions
     3. More Python: Reusing Code
-    4. Lexical Resources
-    5. WordNet _add Open Multilingual Wordnet_
+    4. Lexical Resources _add FrameNet and VerbNet_
+    5. WordNet _add Open Multilingual WordNet_
     6. Summary
     7. Further Reading
     8. Exercises
@@ -49,7 +49,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     11. Exercises
 5. **Categorizing and Tagging Words**
     1. Using a Tagger
-    2. Tagged Corpora
+    2. Tagged Corpora _mention MASC tagged corpus_
     3. Mapping Words to Properties Using Python Dictionaries
     4. Automatic Tagging
     5. N-Gram Tagging
