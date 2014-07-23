@@ -1,4 +1,4 @@
-This page documents our plans for the development of the NLTK book, leading to a second edition.
+This page documents our plans for the development of the NLTK book, leading to a second edition. We will work on groups of chapters as indicated in the following diagram:
 
 ![Book development plan](https://github.com/nltk/nltk_book/blob/master/images/2nd_ed_plan.png)
 
@@ -31,9 +31,10 @@ This page documents our plans for the development of the NLTK book, leading to a
     7. Regular Expressions for Tokenizing Text
     8. Segmentation
     9. Formatting: From Lists to Strings
-    10. Summary
-    11. Further Reading
-    12. Exercises
+    10. _Scaling up (incl how to use the Stanford tokenizer)_
+    11. Summary
+    12. Further Reading
+    13. Exercises
 4. **Writing Structured Programs**
     1. Back to the Basics
     2. Sequences
@@ -54,9 +55,10 @@ This page documents our plans for the development of the NLTK book, leading to a
     5. N-Gram Tagging
     6. Transformation-Based Tagging
     7. How to Determine the Category of a Word
-    8. Summary
-    9. Further Reading
-    10. Exercises
+    8. _Scaling Up (incl how to use the Stanford tagger)_
+    9. Summary
+    10. Further Reading
+    11. Exercises
 6. **Learning to Classify Text**
     1. Supervised Classification
     2. Further Examples of Supervised Classification
@@ -75,9 +77,10 @@ This page documents our plans for the development of the NLTK book, leading to a
     4. Recursion in Linguistic Structure
     5. Named Entity Recognition
     6. Relation Extraction
-    7. Summary
-    8. Further Reading
-    9. Exercises
+    7. _Scaling Up (incl how to use the Stanford chunker and named entity recognizer)_
+    8. Summary
+    9. Further Reading
+    10. Exercises
 8. **Analyzing Sentence Structure**
     1. Some Grammatical Dilemmas
     2. What's the Use of Syntax?
@@ -85,9 +88,10 @@ This page documents our plans for the development of the NLTK book, leading to a
     4. Parsing With Context Free Grammar
     5. Dependencies and Dependency Grammar
     6. Grammar Development
-    7. Summary
-    8. Further Reading
-    9. Exercises
+    7. _Scaling Up (incl how to use the Stanford parser)_
+    8. Summary
+    9. Further Reading
+    10. Exercises
 9. **Building Feature Based Grammars**
     1. Grammatical Features
     2. Processing  Feature Structures
@@ -114,3 +118,4 @@ This page documents our plans for the development of the NLTK book, leading to a
     7. Summary
     8. Further Reading
     9. Exercises
+12. _**Machine Translation**_
