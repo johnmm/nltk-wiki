@@ -88,6 +88,9 @@ This page documents our plans for the development of the NLTK book, leading to a
     3. Context Free Grammar
     4. Parsing With Context Free Grammar
     5. Dependencies and Dependency Grammar
+        * _split into two sections:_
+        * _(a) heads, arguments, and roles (mentions FrameNet, VerbNet, NomBank, PropBank)_
+        * _(b) dependency grammar and dependency parsing_
     6. Grammar Development
     7. _Scaling Up (incl how to use the Stanford parser)_
     8. Summary
