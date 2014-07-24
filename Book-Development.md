@@ -2,8 +2,6 @@ This page documents our plans for the development of the NLTK book, leading to a
 
 ![Book development plan](https://github.com/nltk/nltk_book/blob/master/images/2nd_ed_plan.png)
 
-0. **Preface**
-    * talk about Python 3 (version 2.6,7 still supported)
 1. **Language Processing and Python**
     1. Computing with Language: Texts and Words
     2. A Closer Look at Python: Texts as Lists of Words
