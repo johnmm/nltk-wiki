@@ -101,7 +101,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     10. Exercises
 9. **Building Feature Based Grammars**
     1. Grammatical Features
-    2. Processing  Feature Structures
+    2. Processing Feature Structures
     3. Extending a Feature based Grammar
     4. Summary
     5. Further Reading
@@ -127,3 +127,12 @@ This page documents our plans for the development of the NLTK book, leading to a
     8. Further Reading
     9. Exercises
 12. _**Machine Translation**_
+    1. _Sentence Alignment (incl Gale-Church algorithm)_
+    2. _Word Alignment (IBM model 1; mention existence of other models)_
+    3. _Aligned Corpora_
+    4. _Decoding_
+    5. _Evaluation_
+    6. _Phrase-Based Models_
+    7. _Summary_
+    7. _Further Reading_
+    8. _Exercises_
