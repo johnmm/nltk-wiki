@@ -3,41 +3,39 @@ NLTK 3.0 contains a number of interface changes. These are being incorporated in
 The way NLTK works with unicode is changed: NLTK3 requires all text input to be unicode and always return text as unicode. Previously, some functions and classes worked on unicode and others required encoded bytestrings. Please make sure you're passing unicode to NLTK and expecting unicode output from NLTK - existing code that assumes bytestrings may start to fail.
 
 Here are some changes you may need to make:
-
-* `nltk.grammar`: `ContextFreeGrammar` &rarr; `CFG`, `WeightedGrammar` &rarr; `PCFG`, `StatisticalDependencyGrammar` &rarr; `ProbabilisticDependencyGrammar`, `WeightedProduction` &rarr; `ProbabilisticProduction`
-* `nltk.draw.tree`: `TreeSegmentWidget.node()` &rarr; `TreeSegmentWidget.label()`, `TreeSegmentWidget.set_node()` &rarr; `TreeSegmentWidget.set_label()`
-* `nltk.ccg.parse.chart`: `EdgeI.next()` &rarr; `EdgeI.nextsym()`
+* `grammar`: `ContextFreeGrammar` &rarr; `CFG`, `WeightedGrammar` &rarr; `PCFG`, `StatisticalDependencyGrammar` &rarr; `ProbabilisticDependencyGrammar`, `WeightedProduction` &rarr; `ProbabilisticProduction`
+* `draw.tree`: `TreeSegmentWidget.node()` &rarr; `TreeSegmentWidget.label()`, `TreeSegmentWidget.set_node()` &rarr; `TreeSegmentWidget.set_label()`
+* parsers: `nbest_parse()` &rarr(); `parse()`
+* `ccg.parse.chart`: `EdgeI.next()` &rarr; `EdgeI.nextsym()`
 * Chunk parser: `top_node` &rarr; `root_label`; `chunk_node` &rarr; `chunk_label`
 * WordNet properties are now access methods, e.g. `Synset.definition` &rarr; `Synset.definition()`
-* `nltk.sem.relextract`: `mk_pairs()` &rarr; `_tree2semi_rel()`, `mk_reldicts()` &rarr; `semi_rel2reldict()`, `show_clause()` &rarr; `clause()`, `show_raw_rtuple()` &rarr; `rtuple()`
+* `sem.relextract`: `mk_pairs()` &rarr; `_tree2semi_rel()`, `mk_reldicts()` &rarr; `semi_rel2reldict()`, `show_clause()` &rarr; `clause()`, `show_raw_rtuple()` &rarr; `rtuple()`
 * `corpusname.tagged_words(simplify_tags=True)` &rarr; `corpusname.tagged_words(tagset='universal')`
-* `nltk.util.clean_html()` &rarr; `BeautifulSoup.get_text()`. `clean_html()` is now dropped, install & use BeautifulSoup or some other html parser instead.
-* `nltk.util.ibigrams()` &rarr; `nltk.util.bigrams()`
-* `nltk.util.ingrams()` &rarr; `nltk.util.ngrams()`
-* `nltk.util.itrigrams()` &rarr; `nltk.util.trigrams()`
-* `nltk.metrics.windowdiff` &rarr; `nltk.metrics.segmentation.windowdiff()`, `nltk.metrics.windowdiff.demo()` was removed.
-* `nltk.parse.generate2` was re-written and merged into `nltk.parse.generate`
+* `util.clean_html()` &rarr; `BeautifulSoup.get_text()`. `clean_html()` is now dropped, install & use BeautifulSoup or some other html parser instead.
+* `util.ibigrams()` &rarr; `util.bigrams()`
+* `util.ingrams()` &rarr; `util.ngrams()`
+* `util.itrigrams()` &rarr; `util.trigrams()`
+* `metrics.windowdiff` &rarr; `metrics.segmentation.windowdiff()`, `metrics.windowdiff.demo()` was removed.
+* `parse.generate2` was re-written and merged into `parse.generate`
 
 Creating objects from strings:
-
 * Many objects now support a `fromstring()` method
-* `nltk.tree.Tree.parse()` &rarr; `nltk.tree.Tree.fromstring()`
-* `nltk.tree.Tree()` &rarr; `nltk.tree.Tree.fromstring()`
-* `nltk.chunk.RegexpChunkRule.parse()` &rarr; `nltk.chunkRegexpChunkRule.fromstring()`
-* `nltk.grammar.parse_cfg()` &rarr; `nltk.ContextFreeGrammar.fromstring()` (same for other types of grammar)
-* `nltk.sem.LogicParser.parse()` &rarr; `nltk.sem.Expression.fromstring()`
-* `nltk.sem.DrtParser.parse()` &rarr; `nltk.sem.DrtExpression.fromstring()`
+* `tree.Tree.parse()` &rarr; `tree.Tree.fromstring()`
+* `tree.Tree()` &rarr; `tree.Tree.fromstring()`
+* `chunk.RegexpChunkRule.parse()` &rarr; `chunkRegexpChunkRule.fromstring()`
+* `grammar.parse_cfg()` &rarr; `ContextFreeGrammar.fromstring()` (same for other types of grammar)
+* `sem.LogicParser.parse()` &rarr; `sem.Expression.fromstring()`
+* `sem.DrtParser.parse()` &rarr; `sem.DrtExpression.fromstring()`
 
 Operations on lists of sentences or other items:
-* `nltk.tokenize.batch_tokenize()` &rarr; `nltk.tokenize.tokenize_sents()`
-* `nltk.tag.batch_tag()` &rarr; `nltk.tag.tag_sents()`
-* `nltk.parse.batch_parse()` &rarr; `nltk.parse.parse_sents()`
-* `nltk.classify.batch_classify()` &rarr; `nltk.classify.classify_many()`
-* `nltk.sem.batch_interpret()` &rarr; `nltk.sem.interpret_sents()`
-* `nltk.sem.batch_evaluate()` &rarr; `nltk.sem.evaluate_sents()`
+* `tokenize.batch_tokenize()` &rarr; `tokenize.tokenize_sents()`
+* `tag.batch_tag()` &rarr; `tag.tag_sents()`
+* `parse.batch_parse()` &rarr; `parse.parse_sents()`
+* `classify.batch_classify()` &rarr; `classify.classify_many()`
+* `sem.batch_interpret()` &rarr; `sem.interpret_sents()`
+* `sem.batch_evaluate()` &rarr; `sem.evaluate_sents()`
 
-Changes in `nltk.probability.FreqDist`:
-
+Changes in `probability.FreqDist`:
 * `fdist.keys()` &rarr; `sorted(fdist)`
 * `fdist.inc(x)` &rarr; `fdist[x] += 1`
 * `fdist.samples()` &rarr; `sorted(fdist.keys())`
@@ -52,23 +50,23 @@ Porter stemmer changes:
 
 Removed modules, classes and functions:
 
-* `nltk.classify.svm` was removed. For classification based on support vector machines (SVMs) use `nltk.classify.scikitlearn` or [scikit-learn](http://scikit-learn.org) directly. See https://github.com/nltk/nltk/issues/450.
-* `nltk.probability.GoodTuringProbDist` class was removed. See https://github.com/nltk/nltk/issues/381.
+* `classify.svm` was removed. For classification based on support vector machines (SVMs) use `classify.scikitlearn` or [scikit-learn](http://scikit-learn.org) directly. See https://github.com/nltk/nltk/issues/450.
+* `probability.GoodTuringProbDist` class was removed. See https://github.com/nltk/nltk/issues/381.
 * `HiddenMarkovModelTaggerTransformI` and its subclasses are removed. See https://github.com/nltk/nltk/issues/374.
-* `nltk.classify.maxent` no longer support algorithms backed by `scipy.maxentropy`. See https://github.com/nltk/nltk/issues/321.
-* `nltk.misc.babelfish` was removed. See https://github.com/nltk/nltk/issues/265.
-* `nltk.sourcedstring` was removed. See https://github.com/nltk/nltk/issues/322.
-* `nltk.yamltags` was removed. JSON is now preferred instead. See https://github.com/nltk/nltk/issues/540
-* `nltk.mallet` was removed, including the `nltk.tag.crf` module. See https://github.com/nltk/nltk/issues/104
-* `nltk.tag.simplify` was removed. See https://github.com/nltk/nltk/issues/483
-* `nltk.model` was removed. See https://github.com/nltk/nltk/issues?labels=model
-* `nltk.corpus.reader.wordnet._lcs_by_depth` was removed. See https://github.com/nltk/nltk/issues/422.
+* `classify.maxent` no longer support algorithms backed by `scipy.maxentropy`. See https://github.com/nltk/nltk/issues/321.
+* `misc.babelfish` was removed. See https://github.com/nltk/nltk/issues/265.
+* `sourcedstring` was removed. See https://github.com/nltk/nltk/issues/322.
+* `yamltags` was removed. JSON is now preferred instead. See https://github.com/nltk/nltk/issues/540
+* `mallet` was removed, including the `tag.crf` module. See https://github.com/nltk/nltk/issues/104
+* `tag.simplify` was removed. See https://github.com/nltk/nltk/issues/483
+* `model` was removed. See https://github.com/nltk/nltk/issues?labels=model
+* `corpus.reader.wordnet._lcs_by_depth` was removed. See https://github.com/nltk/nltk/issues/422.
 
 Miscellaneous changes:
 
-* `nltk.probability.ConditionalProbDist.default_factory` now inherits from `dict` instead of `defaultdict`
-* `nltk.probability.ConditionalProbDistI.default_factory` now inherits from `dict` instead of `defaultdict`
-* `nltk.probability.DictionaryConditionalProbDist.default_factory` now inherits from `dict` instead of `defaultdict`
+* `probability.ConditionalProbDist.default_factory` now inherits from `dict` instead of `defaultdict`
+* `probability.ConditionalProbDistI.default_factory` now inherits from `dict` instead of `defaultdict`
+* `probability.DictionaryConditionalProbDist.default_factory` now inherits from `dict` instead of `defaultdict`
 
 More background on Python 3 and NLTK 3:
 
