@@ -68,7 +68,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     6. Maximum Entropy Classifiers
     7. Modeling Linguistic Patterns
     8. _Sentiment Detection (incl sentiwordnet); here or in chapter 7_
-    9. _Clustering and similarity including distributional models_
+    9. _Clustering and similarity; distributed representations of lexical meaning_
     8. Summary
     9. Further Reading
     10. Exercises
@@ -106,7 +106,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     6. Exercises
 10. **Analyzing the Meaning of Sentences**
     1. Natural Language Understanding
-    2. Propositional Logic
+    2. ~~Propositional Logic~~
     3. First-Order Logic
     4. The Semantics of English Sentences
     5. Discourse Semantics
