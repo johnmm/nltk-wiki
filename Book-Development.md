@@ -110,8 +110,8 @@ This page documents our plans for the development of the NLTK book, leading to a
     3. ~~First-Order Logic~~
     2. Logic-based Semantics
     4. The Semantics of English Sentences
-    5. Discourse Semantics
-    6. _Machine Learning for Language Understanding (possibly reduce some of the discussion for model theoretic semantics)_
+    5. ~~Discourse Semantics~~
+    6. _Learning to build logical representations_
     6. Summary
     7. Further Reading
     8. Exercises
