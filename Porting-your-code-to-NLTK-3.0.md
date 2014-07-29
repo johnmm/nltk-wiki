@@ -5,7 +5,7 @@ The way NLTK works with unicode is changed: NLTK3 requires all text input to be 
 Here are some changes you may need to make:
 * `grammar`: `ContextFreeGrammar` &rarr; `CFG`, `WeightedGrammar` &rarr; `PCFG`, `StatisticalDependencyGrammar` &rarr; `ProbabilisticDependencyGrammar`, `WeightedProduction` &rarr; `ProbabilisticProduction`
 * `draw.tree`: `TreeSegmentWidget.node()` &rarr; `TreeSegmentWidget.label()`, `TreeSegmentWidget.set_node()` &rarr; `TreeSegmentWidget.set_label()`
-* parsers: `nbest_parse()` &rarr(); `parse()`
+* parsers: `nbest_parse()` &rarr; `parse()`
 * `ccg.parse.chart`: `EdgeI.next()` &rarr; `EdgeI.nextsym()`
 * Chunk parser: `top_node` &rarr; `root_label`; `chunk_node` &rarr; `chunk_label`
 * WordNet properties are now access methods, e.g. `Synset.definition` &rarr; `Synset.definition()`
