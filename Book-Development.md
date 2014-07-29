@@ -16,7 +16,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     1. Accessing Text Corpora _mention NomBank, PropBank, ChaSen, KNBC Japanese_
     2. Conditional Frequency Distributions
     3. More Python: Reusing Code
-    4. Lexical Resources _add FrameNet, VerbNet_
+    4. Lexical Resources _add FrameNet, VerbNet, Sentiwordnet_
     5. WordNet _add Open Multilingual WordNet_
     6. Summary
     7. Further Reading
@@ -120,7 +120,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     2. The Life-Cycle of a Corpus
     3. Acquiring Data
     4. Working with XML
-    5. Working with Toolbox Data
+    5. ~~Working with Toolbox Data~~ _Working with FLEx Data_
     6. Describing Language Resources using OLAC Metadata
     7. Summary
     8. Further Reading
