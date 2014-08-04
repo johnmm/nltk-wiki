@@ -54,7 +54,7 @@ To install
 
 To install
 * Download & extract Prover9 & Mace4: http://www.cs.unm.edu/~mccune/mace4/
-* Set the environment variable `PROVER9HOME` to point to the binaries directory.
+* Set the environment variable `PROVER9` to point to the binaries directory.
 
 ## Malt Parser
 
