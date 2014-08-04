@@ -67,4 +67,4 @@ To install
 
 To install
 * Download & extract the hunpos tagger files: https://code.google.com/p/hunpos/downloads/list
-* Set the environment variable `HUNPOS` or `HUNPOS_HOME` to point to the directory containing the `hunpos-tag` binary. NLTK also searches for the model files via these environment variables, but their paths can also be passed to the `nltk.tag.hunpos.HunposTagger` class via the `path_to_model` argument.
+* Set the environment variable `HUNPOS_TAGGER` to point to the directory containing the `hunpos-tag` binary. NLTK also searches for the model files via these environment variables, but their paths can also be passed to the `nltk.tag.hunpos.HunposTagger` class via the `path_to_model` argument.
