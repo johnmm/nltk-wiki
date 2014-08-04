@@ -34,7 +34,7 @@ To install:
 
 To install
 * Download & compile TADM: http://tadm.sourceforge.net/
-* Set the environment variable `TADM_DIR` to point to the tadm binaries directory.
+* Set the environment variable `TADM` to point to the tadm binaries directory.
 
 ## Megam (MEGA Model Optimization Package)
 
