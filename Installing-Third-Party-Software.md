@@ -40,7 +40,7 @@ To install
 
 To install
 * Download & compile MEGAM's source: http://www.umiacs.umd.edu/~hal/megam/index.html
-* Set the environment variable `MEGAM` or `MEGAMHOME` to point to the MEGAM directory.
+* Set the environment variable `MEGAM` to point to the MEGAM directory.
 * If using macports version of ocaml, modify the MEGAM Makefile to specify the following:
   `WITHCLIBS =-I /opt/local/lib/ocaml/caml` and `WITHSTR =str.cma -cclib -lcamlstr`
 
