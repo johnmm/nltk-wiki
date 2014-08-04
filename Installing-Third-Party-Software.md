@@ -48,7 +48,7 @@ To install
 
 To install
 * Checkout & compile the latest SVN revision http://svn.ask.it.usyd.edu.au/trac/candc/wiki/Subversion
-* Set the environment variable `CANDCHOME` to point to the C&C directory.
+* Set the environment variable `CANDC` to point to the C&C directory.
 
 ## Prover9 & Mace4
 
