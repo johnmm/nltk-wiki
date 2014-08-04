@@ -61,7 +61,7 @@ To install
 To install
 * Make sure java is installed
 * Download & extract the Malt Parser: http://www.maltparser.org/download.html
-* Set the environment variable `MALTPARSERHOME` to point to the directory containing `malt.jar`.
+* Set the environment variable `MALT_PARSER` to point to the directory containing `malt.jar`.
 
 ## Hunpos Tagger
 
