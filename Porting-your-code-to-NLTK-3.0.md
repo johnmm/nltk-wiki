@@ -26,6 +26,8 @@ Creating objects from strings:
 * `grammar.parse_cfg()` &rarr; `ContextFreeGrammar.fromstring()` (same for other types of grammar)
 * `sem.LogicParser.parse()` &rarr; `sem.Expression.fromstring()`
 * `sem.DrtParser.parse()` &rarr; `sem.DrtExpression.fromstring()`
+* `sem.parse_valuation()` &rarr; `sem.Valuation.fromstring()`
+* `sem.parse_type()` &rarr; `sem.Type.fromstring()`
 
 Operations on lists of sentences or other items:
 * `tokenize.batch_tokenize()` &rarr; `tokenize.tokenize_sents()`
