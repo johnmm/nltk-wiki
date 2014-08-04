@@ -68,6 +68,10 @@ Miscellaneous changes:
 * `probability.ConditionalProbDistI.default_factory` now inherits from `dict` instead of `defaultdict`
 * `probability.DictionaryConditionalProbDist.default_factory` now inherits from `dict` instead of `defaultdict`
 
+Environment variables for third-party software:
+
+* These have been normalised; please see [[Installing Third Party Software]]
+
 More background on Python 3 and NLTK 3:
 
 * http://docs.python.org/2/library/2to3.html
