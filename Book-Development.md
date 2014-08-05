@@ -24,7 +24,7 @@ This page documents our plans for the development of the NLTK book, leading to a
 3. **Processing Raw Text**
     1. Accessing Text from the Web and from Disk (_add Twitter_)
     2. Strings: Text Processing at the Lowest Level
-    3. Text Processing with Unicode _updated for Python 3 including bytes type_
+    3. Text Processing with Unicode _updated for Python 3 including bytes type_ – but this will already be done
     4. Regular Expressions for Detecting Word Patterns
     5. Useful Applications of Regular Expressions
     6. Normalizing Text (_add Twitter_)
