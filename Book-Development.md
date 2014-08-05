@@ -30,7 +30,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     6. Normalizing Text (_add Twitter_)
     7. Regular Expressions for Tokenizing Text
     8. Segmentation
-    9. Formatting: From Lists to Strings (_update to use string.format_)
+    9. Formatting: From Lists to Strings (_update to use string.format_ – but this will already be done)
     10. _Scaling up (incl how to use the Stanford tokenizer)_
     11. Summary
     12. Further Reading
