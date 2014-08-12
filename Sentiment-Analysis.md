@@ -6,7 +6,7 @@ Most approaches use a sentiment lexicon as a component (sometimes the only compo
 
 The following seem to be easily available and have suitable licences:
 
-* SentiWordNet (CC-BY-SA)
+* SentiWordNet (CC-BY-SA) (now available in NLTK)
 * Wiebe et al's Subjectivity Lexicon (GPL)
 
 There may well be other useful lexical resources that we could adopt.
