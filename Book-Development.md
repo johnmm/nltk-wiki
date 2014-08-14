@@ -25,6 +25,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     1. Accessing Text from the Web and from Disk (_add Twitter_)
     2. Strings: Text Processing at the Lowest Level
     3. Text Processing with Unicode _updated for Python 3 including bytes type_ – but this will already be done
+        * [edloper]
     4. Regular Expressions for Detecting Word Patterns
     5. Useful Applications of Regular Expressions
     6. Normalizing Text (_add Twitter_)
@@ -69,6 +70,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     7. Modeling Linguistic Patterns
     8. _Sentiment Detection (incl sentiwordnet); here or in chapter 7_
     9. _Clustering and similarity; distributed representations of lexical meaning_
+        * [edloper]
     8. Summary
     9. Further Reading
     10. Exercises
@@ -89,11 +91,13 @@ This page documents our plans for the development of the NLTK book, leading to a
     3. Context Free Grammar
     4. Parsing With Context Free Grammar
     5. Dependencies and Dependency Grammar
+        * [edloper?]
         * _split into two sections:_
         * _(a) heads, arguments, and roles (mentions FrameNet, VerbNet, NomBank, PropBank)_
         * _(b) dependency grammar and dependency parsing_
     6. Grammar Development
     7. _Scaling Up (incl how to use the Stanford parser)_
+        * [edloper]
     8. Summary
     9. Further Reading
     10. Exercises
