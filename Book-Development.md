@@ -89,11 +89,12 @@ This page documents our plans for the development of the NLTK book, leading to a
     2. What's the Use of Syntax?
     3. Context Free Grammar
     4. Parsing With Context Free Grammar
+    5. _Combinatory Categorial Grammar_ [ewanklein]
     5. Dependencies and Dependency Grammar [edloper]
         * _split into two sections:_
         * _(a) heads, arguments, and roles (mentions FrameNet, VerbNet, NomBank, PropBank)_
         * _(b) dependency grammar and dependency parsing_
-    6. Grammar Development
+    6. Grammar Development (_could this work in chapter 9?_)
     7. _Scaling Up (incl how to use the Stanford parser)_ [edloper]
     8. Summary
     9. Further Reading
@@ -112,7 +113,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     2. Logic-based Semantics
     4. The Semantics of English Sentences
     5. ~~Discourse Semantics~~
-    6. _Learning to build logical representations_
+    6. _Learning to build logical representations_ [tbd, depends on new implementation]
     6. Summary
     7. Further Reading
     8. Exercises
@@ -121,18 +122,18 @@ This page documents our plans for the development of the NLTK book, leading to a
     2. The Life-Cycle of a Corpus
     3. Acquiring Data
     4. Working with XML
-    5. ~~Working with Toolbox Data~~ _Working with FLEx Data_
+    5. ~~Working with Toolbox Data~~ _Working with FLEx Data_ [stevenbird]
     6. Describing Language Resources using OLAC Metadata
     7. Summary
     8. Further Reading
     9. Exercises
-12. _**Machine Translation**_
+12. _**Machine Translation**_ [stevenbird]
     1. _Sentence Alignment (incl Gale-Church algorithm)_
     2. _Word Alignment (IBM model 1; mention existence of other models)_
     3. _Aligned Corpora_
-    4. _Decoding_
+    4. _Decoding_ [depends on new implementation]
     5. _Evaluation_
-    6. _Phrase-Based Models_
+    6. _Phrase-Based Models_ [depends on new implementation]
     7. _Summary_
     7. _Further Reading_
     8. _Exercises_
