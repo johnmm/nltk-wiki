@@ -9,23 +9,23 @@ This page documents our plans for the development of the NLTK book, leading to a
     4. Back to Python: Making Decisions and Taking Control
     5. Automatic Natural Language Understanding
         * _replace babelize example with web link_
+        * _twitter and sentiment analysis_ [ewanklein]
     6. Summary
     7. Further Reading
     8. Exercises
 2. **Accessing Text Corpora and Lexical Resources**
-    1. Accessing Text Corpora _mention NomBank, PropBank, ChaSen, KNBC Japanese_
+    1. Accessing Text Corpora _mention NomBank, PropBank_ [ewanklein]
     2. Conditional Frequency Distributions
     3. More Python: Reusing Code
-    4. Lexical Resources _add FrameNet, VerbNet, Sentiwordnet_
-    5. WordNet _add Open Multilingual WordNet_
+    4. Lexical Resources _add FrameNet, VerbNet, Sentiwordnet_ [edloper]
+    5. WordNet _add Open Multilingual WordNet_ [stevenbird]
     6. Summary
     7. Further Reading
     8. Exercises
 3. **Processing Raw Text**
     1. Accessing Text from the Web and from Disk (_add Twitter_)
     2. Strings: Text Processing at the Lowest Level
-    3. Text Processing with Unicode _updated for Python 3 including bytes type_ – but this will already be done
-        * [edloper]
+    3. Text Processing with Unicode _updated for Python 3 including bytes type_ – but this will already be done [edloper]
     4. Regular Expressions for Detecting Word Patterns
     5. Useful Applications of Regular Expressions
     6. Normalizing Text (_add Twitter_)
@@ -36,7 +36,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     11. Summary
     12. Further Reading
     13. Exercises
-4. **Writing Structured Programs** _updates for Python 3 including new view types, integer division_
+4. **Writing Structured Programs** _updates for Python 3 including new view types, integer division, dict comprehensions, set literals?_ [stevenbird]
     1. Back to the Basics
     2. Sequences
     3. Questions of Style
