@@ -23,16 +23,16 @@ This page documents our plans for the development of the NLTK book, leading to a
     7. Further Reading
     8. Exercises
 3. **Processing Raw Text**
-    1. Accessing Text from the Web and from Disk (_add Twitter_)
+    1. Accessing Text from the Web and from Disk (_add Twitter_) [ewanklein]
     2. Strings: Text Processing at the Lowest Level
     3. Text Processing with Unicode _updated for Python 3 including bytes type_ – but this will already be done [edloper]
     4. Regular Expressions for Detecting Word Patterns
     5. Useful Applications of Regular Expressions
-    6. Normalizing Text (_add Twitter_)
+    6. Normalizing Text (_add Twitter_) [ewanklein]
     7. Regular Expressions for Tokenizing Text
     8. Segmentation
     9. Formatting: From Lists to Strings (_update to use string.format_ – but this will already be done)
-    10. _Scaling up (incl how to use the Stanford tokenizer)_
+    10. _Scaling up (incl how to use the Stanford tokenizer)_ [stevenbird]
     11. Summary
     12. Further Reading
     13. Exercises
@@ -50,13 +50,13 @@ This page documents our plans for the development of the NLTK book, leading to a
     11. Exercises
 5. **Categorizing and Tagging Words**
     1. Using a Tagger
-    2. Tagged Corpora _mention MASC tagged corpus_
+    2. Tagged Corpora _mention MASC tagged corpus?_ [stevenbird]
     3. Mapping Words to Properties Using Python Dictionaries
     4. Automatic Tagging
     5. N-Gram Tagging
     6. Transformation-Based Tagging
     7. How to Determine the Category of a Word
-    8. _Scaling Up (incl how to use the Stanford tagger)_
+    8. _Scaling Up (incl how to use the Stanford tagger)_ [stevenbird]
     9. Summary
     10. Further Reading
     11. Exercises
@@ -68,12 +68,11 @@ This page documents our plans for the development of the NLTK book, leading to a
     5. Naive Bayes Classifiers
     6. Maximum Entropy Classifiers
     7. Modeling Linguistic Patterns
-    8. _Sentiment Detection (incl sentiwordnet); here or in chapter 7_
-    9. _Clustering and similarity; distributed representations of lexical meaning_
-        * [edloper]
-    8. Summary
-    9. Further Reading
-    10. Exercises
+    8. _Sentiment Detection (incl sentiwordnet); here or in chapter 7_ [ewanklein]
+    9. _Clustering and similarity; distributed representations of lexical meaning_ [edloper]
+    10. Summary
+    11. Further Reading
+    12. Exercises
 7. **Extracting Information from Text**
     1. Information Extraction
     2. Chunking
@@ -81,7 +80,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     4. Recursion in Linguistic Structure
     5. Named Entity Recognition
     6. Relation Extraction
-    7. _Scaling Up (incl how to use the Stanford chunker and named entity recognizer)_
+    7. _Scaling Up (incl how to use the Stanford chunker and named entity recognizer)_ [edloper]
     8. Summary
     9. Further Reading
     10. Exercises
@@ -90,14 +89,12 @@ This page documents our plans for the development of the NLTK book, leading to a
     2. What's the Use of Syntax?
     3. Context Free Grammar
     4. Parsing With Context Free Grammar
-    5. Dependencies and Dependency Grammar
-        * [edloper?]
+    5. Dependencies and Dependency Grammar [edloper]
         * _split into two sections:_
         * _(a) heads, arguments, and roles (mentions FrameNet, VerbNet, NomBank, PropBank)_
         * _(b) dependency grammar and dependency parsing_
     6. Grammar Development
-    7. _Scaling Up (incl how to use the Stanford parser)_
-        * [edloper]
+    7. _Scaling Up (incl how to use the Stanford parser)_ [edloper]
     8. Summary
     9. Further Reading
     10. Exercises
