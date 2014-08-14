@@ -1,3 +1,5 @@
+Note that this page is stale; links need to be updated, instructions about import * need to be updated.
+
 Most NLTK code is structured into packages, which have the following structure:
 
   1. all modules
