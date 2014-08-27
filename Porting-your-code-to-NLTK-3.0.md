@@ -36,6 +36,7 @@ Operations on lists of sentences or other items:
 * `classify.batch_classify()` &rarr; `classify.classify_many()`
 * `sem.batch_interpret()` &rarr; `sem.interpret_sents()`
 * `sem.batch_evaluate()` &rarr; `sem.evaluate_sents()`
+* `chunk.batch_ne_chunk()` &rarr; `chunk.ne_chunk_sents()`
 
 Changes in `probability.FreqDist`:
 * `fdist.keys()` &rarr; `sorted(fdist)`
