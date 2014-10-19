@@ -23,7 +23,7 @@ Creating objects from strings:
 * `tree.Tree.parse()` &rarr; `tree.Tree.fromstring()`
 * `tree.Tree()` &rarr; `tree.Tree.fromstring()`
 * `chunk.RegexpChunkRule.parse()` &rarr; `chunkRegexpChunkRule.fromstring()`
-* `grammar.parse_cfg()` &rarr; `ContextFreeGrammar.fromstring()` (same for other types of grammar)
+* `grammar.parse_cfg()` &rarr; `CFG.fromstring()` (same for other types of grammar)
 * `sem.LogicParser.parse()` &rarr; `sem.Expression.fromstring()`
 * `sem.DrtParser.parse()` &rarr; `sem.DrtExpression.fromstring()`
 * `sem.parse_valuation()` &rarr; `sem.Valuation.fromstring()`
