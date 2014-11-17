@@ -44,12 +44,12 @@ Language Processing and Computational Linguistics</i>, pp 62-69, Philadelphia, A
 
 ## Reviews
 
-<dl><dt> <a href="http://freshmeat.net/articles/view/1617/" rel="nofollow" title="http://freshmeat.net/articles/view/1617/">Processing Corpora with Python and the Natural Language Toolkit</a> (Freshmeat)
+<dl><dt> <!-- stopped working: href="http://freshmeat.net/articles/view/1617/" rel="nofollow" title="http://freshmeat.net/articles/view/1617/" -->Processing Corpora with Python and the Natural Language Toolkit (Freshmeat)
 </dt>
 <dd> Stuart Robinson, Max Planck Institute for Psycholinguistics, Nijmegen
 </dd>
 </dl>
-<dl><dt> <a href="http://www-106.ibm.com/developerworks/linux/library/l-cpnltk.html" rel="nofollow" title="http://www-106.ibm.com/developerworks/linux/library/l-cpnltk.html">Charming Python: Get started with the Natural Language Toolkit</a> (IBM Developerworks)
+<dl><dt> <!-- stopped working: href="http://www-106.ibm.com/developerworks/linux/library/l-cpnltk.html" rel="nofollow" title="http://www-106.ibm.com/developerworks/linux/library/l-cpnltk.html" -->Charming Python: Get started with the Natural Language Toolkit (IBM Developerworks)
 </dt>
 <dd> David Mertz, Gnosis Software Inc
 </dd>
