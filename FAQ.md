@@ -7,7 +7,7 @@ terms of the <a href="http://www.apache.org/licenses/LICENSE-2.0" rel="nofollow"
 <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/us/" rel="nofollow">Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States license</a>. 
 The corpora are distributed under various licenses, as documented in their respective README files. 
 </blockquote>
-<li><b>What are the plans for further development of NLTK?</b> </li><blockquote>NLTK is undergoing continual development as new modules are added and existing ones are improved.  NLTK 3.0 is being finalized, and we are revising the code samples in the NLTK book.</blockquote>
+<li><b>What are the plans for further development of NLTK?</b> </li><blockquote>NLTK is undergoing continual development as new modules are added and existing ones are improved.  NLTK 3.0 has been finalized, and we have updated the code samples in the NLTK book.</blockquote>
 <li><b>I think I found a bug; where do I report it?</b> </li><blockquote>Please check if an issue report has already been filed by searching the <a href="http://code.google.com/p/nltk/issues/list" rel="nofollow">Issue Tracker</a>.  If not, please report the problem, giving 
 as much detail as possible.  Please include a code sample that 
 permits us to replicate the problem. </blockquote>
