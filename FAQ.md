@@ -12,11 +12,10 @@ The corpora are distributed under various licenses, as documented in their respe
 as much detail as possible.  Please include a code sample that 
 permits us to replicate the problem. </blockquote>
 <li><b>What data sources does NLTK use and how can more be added?<br /></b><div style="margin-left:40px"><br />Dozens of corpora are available for use with NLTK (see the list of <a href="http://nltk.org/nltk_data/">available datasets</a>, and the <a href="http://nltk.org/howto/">Corpus HOWTO</a>).  NLTK can be interfaced to other corpora; for instructions see section 2.1 of the <a href="http://nltk.org/book/ch02.html">NLTK book</a>, and consult the code in the <a href="https://github.com/nltk/nltk/tree/master/nltk/corpus/reader">corpus module</a>.  Requests for advice in developing corpus readers for new formats should be posted to the <a href="http://groups.google.com/group/nltk-dev">nltk-dev mailing list</a>.  Completed corpus readers should be submitted via the <a href="http://code.google.com/p/nltk/issues/list" rel="nofollow">Issue Tracker</a>.  Please specify the location of the corpus and whether it can be redistributed with NLTK.<br /><br /></div></li><li><b>I'm planning some long-term research using NLTK; how long is the toolkit going to be supported?</b> </li><blockquote>We plan to continue supporting the toolkit for as long as 
-possible.  We published the NLTK book in 2009 and plan to 
-support the toolkit for several years while the book is in active 
-use, and while the developers are employed to teach natural 
-language processing.  Bug reports will be attended 
-to as quickly as possible. 
+possible.  We published the NLTK book in 2009 and a second edition is due out in 2016.
+We plan to support the toolkit while the book is in active 
+use, and while the developers are employed in NLP research and teaching.
+Bug reports will be deal with as quickly as possible. 
 </blockquote><li><b>Why is Python giving me a syntax error when I use NLTK?</b> </li><blockquote>NLTK requires Python version 2.6, 2.7, or Python 3.0 onwards.  If you use an earlier 
 version of Python you will see many syntax errors.<br /></blockquote>
 <li><b>What is the difference between NLTK and NLTK-Lite?</b> </li><blockquote>Since mid-2005, the NLTK developers have been creating a 
