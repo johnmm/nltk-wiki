@@ -16,7 +16,7 @@ possible.  We published the NLTK book in 2009 and a second edition is due out in
 We plan to support the toolkit while the book is in active 
 use, and while the developers are employed in NLP research and teaching.
 Bug reports will be dealt with as quickly as possible. 
-</blockquote><li><b>Why is Python giving me a syntax error when I use NLTK?</b> </li><blockquote>NLTK requires Python version 2.6, 2.7, or Python 3.0 onwards.  If you use an earlier 
+</blockquote><li><b>Why is Python giving me a syntax error when I use NLTK?</b> </li><blockquote>NLTK requires Python version 2.6, 2.7, or Python 3.2 onwards.  If you use an earlier 
 version of Python you will see many syntax errors.<br /></blockquote>
 <li><b>What is the difference between NLTK and NLTK-Lite?</b> </li><blockquote>Since mid-2005, the NLTK developers have been creating a 
 lightweight version of NLTK, called NLTK-Lite. NLTK-Lite is 
