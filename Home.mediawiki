@@ -12,7 +12,7 @@
 * [[Third-Party Documentation]]
 * [[Articles about NLTK]]
 * [http://nltk.org/book Natural Language Processing with Python, by Steven Bird, Ewan Klein, and Edward Loper]
-* [https://www.packtpub.com/python-text-processing-with-nltk-2-0-cookbook/book Python Text Processing with NLTK 2.0 Cookbook, by Jacob Perkins]
+* [https://www.packtpub.com/application-development/python-3-text-processing-nltk-3-cookbook Python 3 Text Processing with NLTK 3 Cookbook, by Jacob Perkins]
 * [http://scholar.google.com.au/scholar?q=NLTK Scholarly research that uses NLTK]
 
 == Development ==
