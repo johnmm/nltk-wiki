@@ -14,5 +14,5 @@ Existing functionality is in the [parse package](https://github.com/nltk/nltk/tr
 ## Planned functionality
 
 * [Nivre's arc-eager and arc-standard algorithms](https://github.com/nltk/nltk/issues/694)
-* [Visualization of dependency trees](https://github.com/nltk/nltk/issues/684)
+* [Visualization of dependency trees](https://github.com/nltk/nltk/issues/816)
 
