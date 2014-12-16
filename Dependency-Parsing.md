@@ -8,10 +8,11 @@ Existing functionality is in the [parse package](https://github.com/nltk/nltk/tr
 * non-projective dependency parser and probabilistic non-projective dependency parser (still includes diagnostic print statements?), [nonprojectivedependencyparser.py](https://github.com/nltk/nltk/blob/develop/nltk/parse/nonprojectivedependencyparser.py)
 * interface to the MaltParser, [malt.py](https://github.com/nltk/nltk/blob/develop/nltk/parse/malt.py)
 * corpus reader for the CoNLL 2007 shared task, and for a 10% sample of the dependency version of the Penn Treebank, [dependency.py](https://github.com/nltk/nltk/blob/develop/nltk/corpus/reader/dependency.py)
+* corpus reader for the Universal Dependency Treebank
+* Labeled and unlabeled attachment scores
 
 ## Planned functionality
 
-* [corpus reader for the Universal Dependency Treebank](https://github.com/nltk/nltk/issues/693)
 * [Nivre's arc-eager and arc-standard algorithms](https://github.com/nltk/nltk/issues/694)
 * [Visualization of dependency trees](https://github.com/nltk/nltk/issues/684)
-* [Labeled and unlabeled attachment scores](http://ilk.uvt.nl/conll/software.html)
+
