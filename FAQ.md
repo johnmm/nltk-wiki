@@ -42,9 +42,7 @@ machine.
 </blockquote>
 <li><b>How can I find out where NLTK is installed on my system?</b> </li><blockquote>Do the following in a Python interpreter session:
 <pre><span>&gt;&gt;&gt;</span><span> </span><span>import</span><span> nltk<br /></span><span>&gt;&gt;&gt;</span><span> nltk</span><span>.</span><span>__path__<br /></span><span>[</span><span>'/opt/local/Library/Frameworks/Python.framework/Versions/3.2/lib/python3.2/site-packages/nltk-3.0a3-py3.2.egg/nltk'</span><span>]</span></pre></blockquote>
-<li><b>What papers have been published about NLTK?</b> </li><blockquote>NLTK has been presented at several academic conferences, and 
-reviewed in online forums.  Please see the <a href="https://sites.google.com/site/naturallanguagetoolkit/documentation.1383616523265">Documentation</a> page 
-for more information. 
+<li><b>What papers have been published about NLTK?</b> </li><blockquote>NLTK has been used in a wide variety of published research. Please search <a href="https://scholar.google.com.au/scholar?q=%22natural+language+toolkit%22">Google Scholar</a> for details.
 </blockquote>
 <li><b>How is NLTK development supported?</b> </li><blockquote>NLTK is an open source project that depends mainly on the efforts of volunteers.  Occasionally we have funds for a summer intern or TA to work on specified projects.  Students and teachers also donate code.  In 2008, we received support from <i>Google 
 Summer of Code</i>.  We encourage volunteers to get involved (please consult the <a href="https://github.com/nltk/nltk/wiki">wiki</a>). 
