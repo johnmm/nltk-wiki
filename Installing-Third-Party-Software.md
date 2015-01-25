@@ -74,3 +74,7 @@ To install
 * Download & extract the Senna files: http://ml.nec-labs.com/senna/
 * Set the environment variable `SENNA` to point to the senna directory. NLTK searches for the binary executable files via this environment variable, but the directory path can also be passed to the `nltk.tag.senna.SennaTagger` class via the `senna_path` argument.
 
+## Mallet for CRF Tagger
+To install 
+* Download & compile : http://mallet.cs.umass.edu/download.php
+* Set the environment variable `MALLET` and `MALLET_DEPS` to point to the directory containing `mallet.jar` and `mallet-deps.jar` respectively. Normally, these .jar files are in mallet\dist\ folder after compiled. NLTK searches for the binary executable files via this environment variable, but the directory path can also be passed to the `nltk.tag.mallet.MalletTagger` class via the `path_to_mallet_jar` and `path_to_mallet_deps_jar` arguments.
