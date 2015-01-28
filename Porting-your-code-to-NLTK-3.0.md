@@ -71,6 +71,17 @@ Miscellaneous changes:
 * `probability.ConditionalProbDistI.default_factory` now inherits from `dict` instead of `defaultdict`
 * `probability.DictionaryConditionalProbDist.default_factory` now inherits from `dict` instead of `defaultdict`
 
+Printing changes (from 3.0.2, see https://github.com/nltk/nltk/issues/804):
+* `classify.decisiontree.DecisionTreeClassifier.pp` &rarr; `pretty_format`
+* `metrics.confusionmatrix.ConfusionMatrix.pp` &rarr; `pretty_format`
+* `sem.lfg.FStructure.pprint` &rarr; `pretty_format`
+* `sem.drt.DrtExpression.pretty` &rarr; `pretty_format`
+* `parse.chart.Chart.pp` &rarr; `pretty_format`
+* `Tree.pprint()` &rarr; `pformat`
+* `FreqDist.pprint` &rarr; `pformat`
+* `Tree.pretty_print` &rarr; `pprint`
+* `Tree.pprint_latex_qtree` &rarr; `pformat_latex_qtree`
+
 Environment variables for third-party software:
 
 * These have been normalised; please see [[Installing Third Party Software]]
