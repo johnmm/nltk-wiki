@@ -1,3 +1,5 @@
+Please see [[Porting your code to NLTK 3.0]].
+
 ## Proposed Changes for Consideration
 
 * methods that return sequences should produce iterators by default; there would be no special iter methods
