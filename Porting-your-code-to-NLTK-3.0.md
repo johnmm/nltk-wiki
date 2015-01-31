@@ -70,6 +70,9 @@ Miscellaneous changes:
 * `probability.ConditionalProbDist.default_factory` now inherits from `dict` instead of `defaultdict`
 * `probability.ConditionalProbDistI.default_factory` now inherits from `dict` instead of `defaultdict`
 * `probability.DictionaryConditionalProbDist.default_factory` now inherits from `dict` instead of `defaultdict`
+* `tag.senna.SennaTagger` &rarr; `classify.Senna`
+* `tag.senna.SennaPOSTagger` &rarr; `tag.SennaTagger`
+* `tag.seena.SennaCHKTagger` &rarr; `tag.SennaChunkTagger`
 
 Printing changes (from 3.0.2, see https://github.com/nltk/nltk/issues/804):
 * `classify.decisiontree.DecisionTreeClassifier.pp` &rarr; `pretty_format`
