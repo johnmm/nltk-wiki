@@ -19,18 +19,16 @@ use, and while the developers are employed in NLP research and teaching.
 Bug reports will be dealt with as quickly as possible. 
 </blockquote><li><b>Why is Python giving me a syntax error when I use NLTK?</b> </li><blockquote>NLTK requires Python version 2.6, 2.7, or Python 3.2 onwards.  If you use an earlier 
 version of Python you will see many syntax errors.<br /></blockquote>
-<li><b>What is the difference between NLTK and NLTK-Lite?</b> </li><blockquote>Since mid-2005, the NLTK developers have been creating a 
-lightweight version of NLTK, called NLTK-Lite. NLTK-Lite is 
-simpler and faster than NLTK. Once it is complete, NLTK-Lite will 
-provide the same functionality as NLTK (in fact, all of NLTK 
-functionality is now in NLTK-Lite 0.9, and the package is called 
-nltk). Unlike the old NLTK, NLTK-Lite does not impose such a heavy 
+<li><b>What is the difference between NLTK and NLTK-Lite?</b> </li><blockquote>In mid-2005, the NLTK developers created a 
+lightweight version of NLTK called NLTK-Lite. NLTK-Lite was 
+simpler and faster than NLTK at that time. As of version 0.9, NLTK-Lite 
+provided the same functionality as NLTK. Unlike the old NLTK, NLTK-Lite did not impose such a heavy 
 burden on the programmer. Wherever possible, standard Python 
-objects are used instead of custom NLP versions, so that students 
-learning to program for the first time will be learning to program 
+objects were adopted instead of custom NLP versions, so that students 
+learning to program for the first time would be learning to program 
 in Python with some useful libraries, rather than learning to 
 program in NLTK.  Once it reached version 1.0 (in mid 2009), 
-NLTK-Lite took over the original NLTK name, and became NLTK 
+NLTK-Lite took over the original NLTK name and became NLTK 
 2.0. 
 </blockquote><li><b>How can I install NLTK from the source code repository?</b> </li><blockquote>Most users should install NLTK from a distribution.  Please see 
 the <a href="http://nltk.org/install.html">installation instructions</a>.  However, if you need 
