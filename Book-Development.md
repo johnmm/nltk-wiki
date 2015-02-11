@@ -1,16 +1,15 @@
 This page documents our plans for the development of the NLTK book, leading to a second edition.
 
 1. **Language Processing and Python**
-    1. Computing with Language: Texts and Words
-    2. A Closer Look at Python: Texts as Lists of Words
-    3. Computing with Language: Simple Statistics
-    4. Back to Python: Making Decisions and Taking Control
-    5. Automatic Natural Language Understanding
-        * _replace babelize example with web link_
-        * _twitter and sentiment analysis_ [ewanklein]
+    1. NLP systems: translation, dialogue, summarisation, web search, question answering, recommendations (similarity metrics over document collections), sentiment analysis. Pointers to demonstrations online (links hosted at nltk.org to avoid link rot). Discussion to highlight the non-trivial NLP involved.
+    2. Sub-tasks: WSD, pronoun resolution, entailment, finding things in text
+    3. Overview of NLTK (simple things you can do, intended to engage non-linguists with the content and non-programmers with the syntax)
+    4. A sample of Python libraries (from 4.8)
+    5. Overview of book
     6. Summary
     7. Further Reading
     8. Exercises
+
 2. **Accessing Text Corpora and Lexical Resources**
     1. Accessing Text Corpora _mention NomBank, PropBank_ [ewanklein]
     2. Conditional Frequency Distributions
@@ -34,7 +33,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     11. Summary
     12. Further Reading
     13. Exercises
-4. **Writing Structured Programs** _updates for Python 3 including new view types, integer division, dict comprehensions, set literals?_ [stevenbird]
+4. **Writing Structured Programs** _scheduled for deletion, with some of the content going into an appendix_ [stevenbird]
     1. Back to the Basics
     2. Sequences
     3. Questions of Style
@@ -135,6 +134,16 @@ This page documents our plans for the development of the NLTK book, leading to a
     7. _Summary_
     7. _Further Reading_
     8. _Exercises_
+
+Appendix. _**Enough Python for this Book**_ (incorporating material from old chapters 1 and 4)
+    1. Getting started with Python (from 1.1)
+    1. Texts as lists of words (lists, variables, strings, from 1.2)
+    2. Making decisions and taking control (conditionals, comprehensions, nesting, from 1.4)
+    3. Sequences (includes tuples, from 4.2)
+    4. Functions (from 4.4)
+    5. Doing more with functions (from 4.5, plus module structure from 4.6)
+    6. Getting started with NLTK (from 1.1 and 1.3)
+
 
 #Workplan#
 
