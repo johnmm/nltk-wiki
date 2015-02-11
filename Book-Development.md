@@ -2,13 +2,12 @@ This page documents our plans for the development of the NLTK book, leading to a
 
 1. **Language Processing and Python**
     1. NLP systems: translation, dialogue, summarisation, web search, question answering, recommendations (similarity metrics over document collections), sentiment analysis. Pointers to demonstrations online (links hosted at nltk.org to avoid link rot). Discussion to highlight the non-trivial NLP involved.
-    2. Sub-tasks: WSD, pronoun resolution, entailment, finding things in text
-    3. Language modeling?
-    4. Overview of NLTK (simple things you can do, intended to engage non-linguists with the content and non-programmers with the syntax)
-    5. Overview of book
-    6. Summary
-    7. Further Reading
-    8. Exercises
+    2. Sub-tasks: WSD, pronoun resolution, entailment, finding things in text, language modeling, collocations
+    3. Overview of NLTK (simple things you can do, intended to engage non-linguists with the content and non-programmers with the syntax)
+    4. Overview of book
+    5. Summary
+    6. Further Reading
+    7. Exercises
 
 2. **Accessing Text Corpora and Lexical Resources**
     1. Accessing Text Corpora _mention NomBank, PropBank_ [ewanklein]
