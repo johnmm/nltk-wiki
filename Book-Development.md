@@ -32,8 +32,9 @@ This page documents our plans for the development of the NLTK book, leading to a
     11. Summary
     12. Further Reading
     13. Exercises
-4. **Writing Structured Programs** _scheduled for deletion, with some of the content going into an appendix_ [stevenbird]
-    * Back to the Basics, Sequences, Questions of Style, Functions: The Foundation of Structured Programming, Doing More with Functions, Program Development, Algorithm Design, A Sample of Python Libraries, Summary, Further Reading, Exercises
+4. **Language Modeling**
+    9. _Clustering and similarity; distributed representations of lexical meaning_ [edloper]
+    
 5. **Categorizing and Tagging Words**
     1. Using a Tagger
     2. Tagged Corpora _mention MASC tagged corpus?_ [stevenbird]
@@ -55,7 +56,6 @@ This page documents our plans for the development of the NLTK book, leading to a
     6. Maximum Entropy Classifiers
     7. Modeling Linguistic Patterns
     8. _Sentiment Detection (incl sentiwordnet); here or in chapter 7_ [ewanklein]
-    9. _Clustering and similarity; distributed representations of lexical meaning_ [edloper]
     10. Summary
     11. Further Reading
     12. Exercises
