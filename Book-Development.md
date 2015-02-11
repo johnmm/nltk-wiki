@@ -5,7 +5,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     2. Sub-tasks: WSD, pronoun resolution, entailment, finding things in text
     3. Language modeling?
     4. Overview of NLTK (simple things you can do, intended to engage non-linguists with the content and non-programmers with the syntax)
-    5. A sample of Python libraries (from 4.8)
+    5. Other useful Python libraries for NLP (from 4.8)
     6. Overview of book
     7. Summary
     8. Further Reading
@@ -126,7 +126,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     7. _Further Reading_
     8. _Exercises_
 
-Appendix. _**Enough Python for this Book**_ (incorporating material from old chapters 1 and 4)
+13. _**Appendix: Enough Python for this Book**_ (incorporating material from old chapters 1 and 4)
     1. Getting started with Python (from 1.1)
     1. Texts as lists of words (lists, variables, strings, from 1.2)
     2. Making decisions and taking control (conditionals, comprehensions, nesting, from 1.4)
