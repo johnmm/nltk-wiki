@@ -33,26 +33,14 @@ This page documents our plans for the development of the NLTK book, leading to a
     12. Further Reading
     13. Exercises
 4. **Language Modeling**
-    9. _Clustering and similarity; distributed representations of lexical meaning_ [edloper]
-
-6 Statistical Inference: n -gram Models over Sparse Data  
-6.1 Bins: Forming Equivalence Classes  
-6.1.1 Reliability vs. discrimination  
-6.1.2 models   
-6.1.3 Building models n-gram  
-6.2 Statistical Estimators  
-6.2.1 Maximum Likelihood Estimation (MLE) 
-6.2.2 Laplace’s law, Lidstone’s law and the Jeffreys-Perks law  
-6.2.3 Held out estimation  
-6.2.4 Cross-validation (deleted estimation) 
-6.2.5 Good-Turing estimation   
-6.2.6 Briefly noted  
-6.3 Combining Estimators  
-6.3.1 Simple linear interpolation 
-6.3.2 Katz’s backing-off  
-6.3.3 General linear interpolation 
-6.3.4 Briefly noted   
-6.3.5 Language models for Austen  
+  1. n-gram models
+  2. bins: forming equivalence classes
+  3. independence assumptions
+  4. sparse data problems.
+  5. statistical estimators (MLE, laplace, heldout, etc)
+  6. combining estimators
+  7. word clusters and word similarity
+  8. word embeddings
 
     
 5. **Categorizing and Tagging Words**
