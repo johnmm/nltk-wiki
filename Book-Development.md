@@ -32,7 +32,8 @@ This page documents our plans for the development of the NLTK book, leading to a
     11. Summary
     12. Further Reading
     13. Exercises
-4. **Language Modeling**
+
+4. **Language Modeling** [edloper]
   1. n-gram models
   2. bins: forming equivalence classes
   3. independence assumptions
