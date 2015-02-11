@@ -33,20 +33,8 @@ This page documents our plans for the development of the NLTK book, leading to a
     11. Summary
     12. Further Reading
     13. Exercises
-<font color="silver">
 4. **Writing Structured Programs** _scheduled for deletion, with some of the content going into an appendix_ [stevenbird]
-    1. Back to the Basics
-    2. Sequences
-    3. Questions of Style
-    4. Functions: The Foundation of Structured Programming
-    5. Doing More with Functions
-    6. Program Development
-    7. Algorithm Design
-    8. A Sample of Python Libraries
-    9. Summary
-    10. Further Reading
-    11. Exercises
-</font>
+    * Back to the Basics, Sequences, Questions of Style, Functions: The Foundation of Structured Programming, Doing More with Functions, Program Development, Algorithm Design, A Sample of Python Libraries, Summary, Further Reading, Exercises
 5. **Categorizing and Tagging Words**
     1. Using a Tagger
     2. Tagged Corpora _mention MASC tagged corpus?_ [stevenbird]
