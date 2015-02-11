@@ -45,7 +45,7 @@ This page documents our plans for the development of the NLTK book, leading to a
 6.2.2 Laplace’s law, Lidstone’s law and the Jeffreys-Perks law  
 6.2.3 Held out estimation  
 6.2.4 Cross-validation (deleted estimation) 
-6.2.5 Good-Turing estimation  
+6.2.5 Good-Turing estimation   
 6.2.6 Briefly noted  
 6.3 Combining Estimators  
 6.3.1 Simple linear interpolation 
