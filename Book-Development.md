@@ -33,6 +33,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     11. Summary
     12. Further Reading
     13. Exercises
+<font color="silver">
 4. **Writing Structured Programs** _scheduled for deletion, with some of the content going into an appendix_ [stevenbird]
     1. Back to the Basics
     2. Sequences
@@ -45,6 +46,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     9. Summary
     10. Further Reading
     11. Exercises
+</font>
 5. **Categorizing and Tagging Words**
     1. Using a Tagger
     2. Tagged Corpora _mention MASC tagged corpus?_ [stevenbird]
