@@ -5,11 +5,10 @@ This page documents our plans for the development of the NLTK book, leading to a
     2. Sub-tasks: WSD, pronoun resolution, entailment, finding things in text
     3. Language modeling?
     4. Overview of NLTK (simple things you can do, intended to engage non-linguists with the content and non-programmers with the syntax)
-    5. Other useful Python libraries for NLP (from 4.8)
-    6. Overview of book
-    7. Summary
-    8. Further Reading
-    9. Exercises
+    5. Overview of book
+    6. Summary
+    7. Further Reading
+    8. Exercises
 
 2. **Accessing Text Corpora and Lexical Resources**
     1. Accessing Text Corpora _mention NomBank, PropBank_ [ewanklein]
@@ -134,6 +133,15 @@ This page documents our plans for the development of the NLTK book, leading to a
     4. Functions (from 4.4)
     5. Doing more with functions (from 4.5, plus module structure from 4.6)
     6. Getting started with NLTK (from 1.1 and 1.3)
+    7. Exercises
+
+14. _**Appendix: Useful Python libraries for NLP**_ (from 4.8)
+    1. matplotlib
+    2. networkx
+    3. csv
+    4. numpy
+    5. scikit-learn
+    6. gensim
 
 
 #Workplan#
