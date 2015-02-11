@@ -1,6 +1,4 @@
-This page documents our plans for the development of the NLTK book, leading to a second edition. We will work on groups of chapters as indicated in the following diagram:
-
-![Book development plan](https://github.com/nltk/nltk_book/blob/master/images/2nd_ed_plan.png)
+This page documents our plans for the development of the NLTK book, leading to a second edition.
 
 1. **Language Processing and Python**
     1. Computing with Language: Texts and Words
@@ -137,3 +135,9 @@ This page documents our plans for the development of the NLTK book, leading to a
     7. _Summary_
     7. _Further Reading_
     8. _Exercises_
+
+#Workplan#
+
+We are working on groups of chapters as indicated in the following diagram:
+
+![Book development plan](https://github.com/nltk/nltk_book/blob/master/images/2nd_ed_plan.png)
