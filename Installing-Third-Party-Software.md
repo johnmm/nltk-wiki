@@ -66,8 +66,9 @@ To install
 ## Hunpos Tagger
 
 To install
-* Download & extract the hunpos tagger files: https://code.google.com/p/hunpos/downloads/list
-* Set the environment variable `HUNPOS_TAGGER` to point to the directory containing the `hunpos-tag` binary. NLTK also searches for the model files via this environment variable, but the file paths can also be passed to the `nltk.tag.hunpos.HunposTagger` class via the `path_to_model` argument.
+* Download & extract the hunpos tagger and a model file: https://code.google.com/p/hunpos/downloads/list
+* Set the environment variable `HUNPOS_TAGGER` to point to the directory containing the `hunpos-tag` binary
+* NLTK also searches for the model files using the same environment variable, so you can put the model file in the same location (NB the model file path can also be passed to the `nltk.tag.hunpos.HunposTagger` class via the `path_to_model` argument)
 
 ## Senna for Various NLP Tasks
 To install 
