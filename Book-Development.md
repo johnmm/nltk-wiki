@@ -12,12 +12,11 @@ This page documents our plans for the development of the NLTK book, leading to a
 2. **Accessing Text Corpora and Lexical Resources**
     1. Accessing Text Corpora _mention NomBank, PropBank_ [ewanklein]
     2. Conditional Frequency Distributions
-    3. More Python: Reusing Code
-    4. Lexical Resources _add FrameNet, VerbNet, Sentiwordnet_ [edloper]
-    5. WordNet _add Open Multilingual WordNet_ [stevenbird]
-    6. Summary
-    7. Further Reading
-    8. Exercises
+    3. Lexical Resources _add FrameNet, VerbNet, Sentiwordnet_ [edloper]
+    4. WordNet _add Open Multilingual WordNet_ [stevenbird]
+    5. Summary
+    6. Further Reading
+    7. Exercises
 3. **Processing Raw Text**
     1. Accessing Text from the Web and from Disk (_add Twitter_) [ewanklein]
     2. Strings: Text Processing at the Lowest Level
@@ -138,7 +137,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     1. Texts as lists of words (lists, variables, strings, from 1.2)
     2. Making decisions and taking control (conditionals, comprehensions, nesting, from 1.4)
     3. Sequences (includes tuples, from 4.2)
-    4. Functions (from 4.4)
+    4. Functions and modules (from 2.3 and 4.4)
     5. Doing more with functions (from 4.5, plus module structure from 4.6)
     6. Getting started with NLTK (from 1.1 and 1.3)
     7. Exercises
