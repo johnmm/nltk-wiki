@@ -10,7 +10,7 @@ The ideas listed here are basic and vague, if you like some of them you will nee
 * Make sure that your plan is doable during the summer period. However, the proposal should not be too small, if you feel that this is the case, think of what else you could do.
 * Don't plan other major obligations during the summer. You are expected to work 40 hours a week during the coding phase.
 
-**Start preparing early and prefer public communication.** Usage of a public mailing list is preferred over private conversations.
+**Start preparing early and prefer public communication.** Early communication is necessary for a competitive project proposal. Also, reporting any kind of issues early gives an opportunity to solve most of the problems. Usage of a public mailing list is preferred over private conversations.
 
 # Note to mentors
 
