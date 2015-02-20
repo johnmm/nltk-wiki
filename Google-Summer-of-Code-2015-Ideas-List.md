@@ -2,7 +2,7 @@ This page lists project ideas for Google Summer of Code 2015.
 
 # Note to students
 
-The ideas listed here are basic and vague, if you like some of them you will need to elaborate on it and come up with a detailed and specific plan.
+The ideas listed here are basic and vague, if you like some of them you will need to elaborate on it and come up with a detailed and specific plan. Note that our focus in NLTK is reference implementations of published algorithms, and interfaces to other NLP libraries.
 
 * Contact developers and discuss your idea.
 * Get familiar with the code not just with the functionality it provides, get it on your machine, run the tests.
