@@ -17,7 +17,6 @@ The ideas listed here are basic and vague, if you like some of them you will nee
 If you are interested in mentoring, please add yourself to the list, possible specifying a topic:
 
 * @dimazest dependency parser, semantics
-* Saarland University (@alvations + Josef van Genabith) machine translation, word sense disambiguation
 
 # Projects
 
