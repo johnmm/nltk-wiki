@@ -68,6 +68,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     6. Maximum Entropy Classifiers
     7. Modeling Linguistic Patterns
     8. _Sentiment Detection (incl sentiwordnet); here or in chapter 7_ [ewanklein]
+    9. _Scaling Up_ [edloper]
     10. Summary
     11. Further Reading
     12. Exercises
