@@ -41,6 +41,10 @@ This page documents our plans for the development of the NLTK book, leading to a
   6. combining estimators
   7. word clusters and word similarity
   8. word embeddings
+  9. scaling up -- show how to perform some task that we've already performed, but using an external tool and a larger data set.  Should be a short section, but enough to show how to use the interface to the external tool, and to show the performance difference etc.
+  10. Summary
+  11. Further Reading
+  12. Exercises
 
     
 5. **Categorizing and Tagging Words**
