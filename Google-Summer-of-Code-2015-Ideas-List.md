@@ -1,3 +1,5 @@
+*This page is for historical information only. We did not participate in GSoC 2015*
+
 This page lists project ideas for Google Summer of Code 2015.
 
 # Note to students
