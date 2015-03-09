@@ -4,7 +4,6 @@
 * [http://tinyurl.com/nltk-courses Courses] &mdash; university courses that use NLTK
 * [http://text-processing.com/demo/ Interactive online demos]
 * [http://moin.ourproject.org/moin/projects/nltk/ProjectIdeas Project Ideas]
-* [[Google Summer of Code 2015 Ideas List]]
 
 == Documentation ==
 
