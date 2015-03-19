@@ -1,9 +1,10 @@
 This page documents our plans for the development of the NLTK book, leading to a second edition.
 
 1. **Language Processing and the Natural Language Toolkit**
-    1. NLP systems: translation, dialogue (done), summarisation, web search, question answering, recommendations (similarity metrics over document collections), sentiment analysis. Pointers to demonstrations online (links hosted at nltk.org to avoid link rot). Architectures. Limitations. Discussion to highlight the non-trivial NLP involved.
+    1. NLP systems: translation (SB), dialogue (done), summarisation, web search (EL), question answering (logic-rich, infencing approach EK), recommendations (similarity metrics over document collections), sentiment analysis (EK). Pointers to demonstrations online (links hosted at nltk.org to avoid link rot). Architectures. Limitations. Discussion to highlight the non-trivial NLP involved.
         * description, the pieces you need to solve it (architecture diagram if necessary)
         * the fact that there's overlap between these in terms of the required subtasks
+        * some very different approaches exist for the above (favour popularity, reasonableness, coverage of approaches across the whole set)
     2. Sub-tasks: WSD, pronoun resolution, entailment, finding things in text, language modeling, collocations
     3. Overview of NLTK (simple things you can do, intended to engage non-linguists with the content and non-programmers with the syntax)
     4. Overview of book
