@@ -77,7 +77,7 @@ This page documents our plans for the development of the NLTK book, leading to a
     12. Exercises
 7. **Extracting Information from Text**
     1. Information Extraction
-    2. Chunking
+    2. Chunking (decide which interface to use: chunking, tagging, or parsing)
     3. Developing and Evaluating Chunkers
     4. Recursion in Linguistic Structure
     5. Named Entity Recognition
