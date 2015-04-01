@@ -6,8 +6,9 @@ Existing functionality is mostly in the [align package](https://github.com/nltk/
 
 * IBM Models 1-3 `align/ibm{1,2,3}.py`
 * BLEU `align/bleu.py`
-* Gale-Church `align/gale_church.py`
+* Gale-Church Sentence Aligner `align/gale_church.py`
 * Aligned sentence reader `corpus/reader/aligned.py`
+* Grow-Diagonal-Final-And Phrase Extraction `align/phrase_based.py`
 
 ## Planned functionality
 
@@ -15,6 +16,7 @@ We would like to add functionality in the following areas:
 
 * Decoder for word-based models
 * Phrase-based models
+ * Phrase probability estimation
 * Decoder for phrase-based models
 * [Visualization of word alignments](https://github.com/nltk/nltk/issues/684)
 
@@ -22,7 +24,8 @@ We would like to add functionality in the following areas:
 
 Existing Python implementations that could possibly be incorporated into NLTK
 
-* ?
+* [KenLM](https://github.com/kpu/kenlm/tree/master/python)
+* [Kriya](https://github.com/sfu-natlang/Kriya)
 
 ## Useful links
 
