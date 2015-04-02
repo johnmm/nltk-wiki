@@ -1,0 +1,1 @@
+Semantic Parsing is currently taken to cover a body of techniques for extending broad-coverage probabilistic parsers to some kind of 'meaning'.
