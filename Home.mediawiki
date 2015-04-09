@@ -24,6 +24,7 @@
 * [[Dependency Parsing]]
 * [[Machine Translation]]
 * [[Semantic Role Labeling]]
+* [[Semantic Parsing]]
 * [[Sentiment Analysis]]
 * [[Topic Modeling]]
 * [[Twitter Processing]]
