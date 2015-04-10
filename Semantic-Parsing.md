@@ -4,7 +4,7 @@ Semantic parsing is the extension of broad-coverage probabilistic parsers to rep
 
 + A broad-coverage probabilistic CCG parser that parses input sentences into meaning representations using FOL + lambda-calculus.
 
-+ Grounding of the predicates in the meaning representations in an open-domain ontology/knowledge base, e.g. [Freebase],  [:BaseKB] or [DBpedia].
++ Grounding of the predicates in the meaning representations in an open-domain ontology/knowledge base, e.g. [Freebase] (but [Freebase is shutting down](https://plus.google.com/109936836907132434202/posts/3aYFVNf92A1) and transferring to [Wikidata]),  [:BaseKB],  or [DBpedia].
 
 # Rationale
 
@@ -24,4 +24,5 @@ Planned phases of development, in order:
 [Freebase]: http://www.freebase.com
 [:BaseKB]: http://www.basekb.com
 [DBpedia]: http://dbpedia.org
+[Wikidata]: http://www.wikidata.org/
 [ccg package]: https://github.com/nltk/nltk/tree/develop/nltk/ccg
