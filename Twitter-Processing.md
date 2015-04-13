@@ -1,14 +1,18 @@
-## Planned Functionality
+## First draft done
 
-* Tweet downloader (use thinly wrapped existing Python client) [**done**: uses Twython library]
-* Tweet ID list expander (to address Twitter ToS which prohibit redistribution of Twitter corpora) [**done**]
-* Twitter corpus reader [**done**]
-* Script for 'hydrating' a list of tweetIDs into full tweets [**done**]
-* Language Identifier 
-* Tokenizer [**done**: uses code contributed by Christopher Potts]
-* Token Normaliser
+* Twitter API client wrapper 
+* Tweet ID list expander (to address Twitter ToS which prohibit redistribution of Twitter corpora) 
+* Twitter corpus reader 
+* Script for 'hydrating' a list of tweetIDs into full tweets 
+* Tokenizer
+
+## In progress
+
+* Write simple tutorial
+* Better doctest document
 
 ## To do
 
-* Write simple tutorial
-
+* Language Identifier
+* Token Normaliser
+* Decide on 'corpora' to distribute (i.e., as Tweet IDs)
