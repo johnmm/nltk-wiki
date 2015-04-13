@@ -15,4 +15,5 @@
 
 * Language Identifier
 * Token Normaliser
+* Tweet POS tagger
 * Decide on 'corpora' to distribute (i.e., as Tweet IDs)
