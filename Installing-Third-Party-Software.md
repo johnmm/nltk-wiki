@@ -19,7 +19,7 @@ To install:
 * Make sure java is installed
 * Download & extract the stanford parser package: http://nlp.stanford.edu/software/lex-parser.shtml
 * Point the `STANFORD_PARSER` or java `CLASSPATH` environment variable to the directory containing `stanford-parser.jar`.
-* Point the `STANFORD_MODELS` environment variable to the directory containing `stanford-parser-x.x.x-models.jar`.
+* Add the directory containing `stanford-parser-x.x.x-models.jar` to the `STANFORD_MODELS` environment variable.
 
 ## Stanford Tagger & Tokenizer
 
