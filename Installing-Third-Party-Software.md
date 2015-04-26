@@ -27,8 +27,9 @@ To install:
 * Make sure java is installed
 * Download & extract the stanford tokenizer package (contains the stanford tagger): http://nlp.stanford.edu/software/lex-parser.shtml
 * Download & extract the stanford NER package http://nlp.stanford.edu/software/CRF-NER.shtml
-* Point the java `CLASSPATH` environment variable to the directory containing `stanford-postagger.jar` and `stanford-ner.jar`.
+* Add the directories containing `stanford-postagger.jar` and `stanford-ner.jar` to the `CLASSPATH` environment variable
 * Point the `STANFORD_MODELS` environment variable to the directory containing the stanford tokenizer models (`arabic.tagger`, `arabic-train.tagger`, `chinese-distsim.tagger`, ...)
+* e.g. `export STANFORD_MODELS=/usr/share/stanford-postagger-full-2015-01-30/models:/usr/share/stanford-ner-2015-04-20/classifier`
 
 ## Tadm (Toolkit for Advanced Discriminative Modeling)
 
