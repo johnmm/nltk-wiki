@@ -13,22 +13,15 @@ To search for java binaries (jar files), nltk checks the java `CLASSPATH` variab
 ### Linux
 It is best to use the package manager to install java.
 
-## Stanford Parser
-
-To install:
-* Make sure java is installed
-* Download & extract the stanford parser package: http://nlp.stanford.edu/software/lex-parser.shtml
-* Point the `STANFORD_PARSER` or java `CLASSPATH` environment variable to the directory containing `stanford-parser.jar`.
-* Add the directory containing `stanford-parser-x.x.x-models.jar` to the `STANFORD_MODELS` environment variable.
-
-## Stanford Tagger & Tokenizer
+## Stanford Tagger, Tokenizer and Parser. 
 
 To install:
 * Make sure java is installed
 * Download & extract the stanford tokenizer package (contains the stanford tagger): http://nlp.stanford.edu/software/lex-parser.shtml
 * Download & extract the stanford NER package http://nlp.stanford.edu/software/CRF-NER.shtml
-* Add the directories containing `stanford-postagger.jar` and `stanford-ner.jar` to the `CLASSPATH` environment variable
-* Point the `STANFORD_MODELS` environment variable to the directory containing the stanford tokenizer models (`arabic.tagger`, `arabic-train.tagger`, `chinese-distsim.tagger`, ...)
+* Download & extract the stanford parser package: http://nlp.stanford.edu/software/lex-parser.shtml
+* Add the directories containing `stanford-postagger.jar`, `stanford-ner.jar` and `stanford-parser.jar` to the `CLASSPATH` environment variable
+* Point the `STANFORD_MODELS` environment variable to the directory containing the stanford tokenizer models, stanford pos models, stanford ner models, stanford parser models e.g (`arabic.tagger`, `arabic-train.tagger`, `chinese-distsim.tagger`,`stanford-parser-x.x.x-models.jar` ...)
 * e.g. `export STANFORD_MODELS=/usr/share/stanford-postagger-full-2015-01-30/models:/usr/share/stanford-ner-2015-04-20/classifier`
 
 ## Tadm (Toolkit for Advanced Discriminative Modeling)
