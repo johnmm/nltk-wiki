@@ -13,13 +13,14 @@ To search for java binaries (jar files), nltk checks the java `CLASSPATH` variab
 ### Linux
 It is best to use the package manager to install java.
 
-## Stanford Tagger, Tokenizer and Parser. 
+## Stanford Tagger, NER, Tokenizer and Parser. 
 
 To install:
 * Make sure java is installed
 * Download & extract the stanford tokenizer package (contains the stanford tagger): http://nlp.stanford.edu/software/lex-parser.shtml
 * Download & extract the stanford NER package http://nlp.stanford.edu/software/CRF-NER.shtml
-* Download & extract the stanford parser package: http://nlp.stanford.edu/software/lex-parser.shtml
+* Download & extract the stanford POS tagger package http://nlp.stanford.edu/software/tagger.shtml
+* Download & extract the stanford Parser package: http://nlp.stanford.edu/software/lex-parser.shtml
 * Add the directories containing `stanford-postagger.jar`, `stanford-ner.jar` and `stanford-parser.jar` to the `CLASSPATH` environment variable
 * Point the `STANFORD_MODELS` environment variable to the directory containing the stanford tokenizer models, stanford pos models, stanford ner models, stanford parser models e.g (`arabic.tagger`, `arabic-train.tagger`, `chinese-distsim.tagger`,`stanford-parser-x.x.x-models.jar` ...)
 * e.g. `export STANFORD_MODELS=/usr/share/stanford-postagger-full-2015-01-30/models:/usr/share/stanford-ner-2015-04-20/classifier`
