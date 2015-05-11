@@ -129,16 +129,17 @@ This page documents our plans for the development of the NLTK book, leading to a
     7. Summary
     8. Further Reading
     9. Exercises
-12. _**Machine Translation**_ [stevenbird]
-    1. _Sentence Alignment (incl Gale-Church algorithm)_
-    2. _Word Alignment (IBM model 1; mention existence of other models)_
-    3. _Aligned Corpora_
-    4. _Decoding_ [depends on new implementation]
-    5. _Evaluation_
-    6. _Phrase-Based Models_ [depends on new implementation]
-    7. _Summary_
-    7. _Further Reading_
-    8. _Exercises_
+12. _**Further Topics**_
+    1. _Machine Translation_ [stevenbird]
+       * _Sentence Alignment (incl Gale-Church algorithm)_
+       * _Word Alignment (IBM model 1; mention existence of other models)_
+       * _Aligned Corpora_
+       * _Decoding_ [depends on new implementation]
+       * _Evaluation_
+    2. _Twitter Processing_
+    3. _Sentiment Analysis_
+    4. _Further Reading_
+    5. _Exercises_
 
 13. _**Appendix: Enough Python for this Book**_ (incorporating material from old chapters 1 and 4)
     1. Getting started with Python (from 1.1)
