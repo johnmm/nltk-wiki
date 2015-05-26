@@ -6,7 +6,7 @@ This page documents our plans for the development of the NLTK book, leading to a
         * the fact that there's overlap between these in terms of the required subtasks
         * some very different approaches exist for the above (favour popularity, reasonableness, coverage of approaches across the whole set)
     2. Sub-tasks: WSD, pronoun resolution, entailment, finding things in text, language modeling, collocations
-    3. Overview of NLTK (simple things you can do, intended to engage non-linguists with the content and non-programmers with the syntax)
+    3. Overview of NLTK (simple things you can do, intended to engage non-linguists with the content and non-programmers with the syntax) (SB)
     4. Overview of book
     5. Summary
     6. Further Reading
