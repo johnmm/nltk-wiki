@@ -5,7 +5,7 @@ This page documents our plans for the development of the NLTK book, leading to a
         * description, the pieces you need to solve it (architecture diagram if necessary)
         * the fact that there's overlap between these in terms of the required subtasks
         * some very different approaches exist for the above (favour popularity, reasonableness, coverage of approaches across the whole set)
-    2. Sub-tasks: WSD, pronoun resolution, entailment, finding things in text, language modeling, collocations, sentence segmentation
+    2. Sub-tasks: WSD, pronoun resolution, entailment, finding things in text, language modeling, collocations, sentence segmentation (identify tasks and writers by mid June)
         * show that these are non-trivial tasks (requires an example), but also do-able (outline of how it works)
         * each block of the architecture diagrams is a candidate here
     3. Overview of NLTK (simple things you can do, intended to engage non-linguists with the content and non-programmers with the syntax) (SB)
