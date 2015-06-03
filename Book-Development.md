@@ -11,7 +11,7 @@ This page documents our plans for the development of the NLTK book, leading to a
         * include some indication of what performance to expect on each task (state of the art performance?)
     3. Overview of NLTK (simple things you can do, intended to engage non-linguists with the content and non-programmers with the syntax) (SB)
     4. Overview of book
-    5. Summary
+    5. Summary (with forward pointers)
     6. Further Reading
     7. Exercises
 
