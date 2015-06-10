@@ -8,7 +8,7 @@ terms of the <a href="http://www.apache.org/licenses/LICENSE-2.0" rel="nofollow"
 The corpora are distributed under various licenses, as documented in their respective README files. 
 </blockquote>
 <li><b>What are the plans for further development of NLTK?</b> </li><blockquote>NLTK is undergoing continual development as new modules are added and existing ones are improved.  NLTK 3.0 has been finalized, and we have updated the code samples in the NLTK book.</blockquote>
-<li><b>I think I found a bug; where do I report it?</b> </li><blockquote>Please check if an issue report has already been filed by searching the <a href="http://code.google.com/p/nltk/issues/list" rel="nofollow">Issue Tracker</a>.  If not, please report the problem, giving 
+<li><b>I think I found a bug; where do I report it?</b> </li><blockquote>Please check if an issue report has already been filed by searching the <a href="https://github.com/nltk/nltk/issues" rel="nofollow">Issue Tracker</a>.  If not, please report the problem, giving 
 as much detail as possible.  Please include a code sample that 
 permits us to replicate the problem. </blockquote>
 <li><b>How can I contribute to NLTK development?</b></li><blockquote>New contributions are always welcome. Please consult the <a href="https://github.com/nltk/nltk/wiki#development">list of development priorities</a> and the <a href="https://github.com/nltk/nltk/issues">issue tracker</a> and submit a pull request. If you have particular expertise to offer, or new functionality to propose, please describe it on the <a href="https://groups.google.com/forum/#!forum/nltk-dev">nltk-dev mailing list</a>.</blockquote>
