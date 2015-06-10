@@ -9,7 +9,7 @@ This page documents our plans for the development of the NLTK book, leading to a
         * show that these are non-trivial tasks (requires an example), but also do-able (outline of how it works)
         * each block of the architecture diagrams is a candidate here
         * include some indication of what performance to expect on each task (state of the art performance?)
-    3. Overview of NLTK (simple things you can do, intended to engage non-linguists with the content and non-programmers with the syntax) (SB)
+    3. Overview of NLTK (simple things you can do, intended to engage readers with the content, linguists and non-linguists alike) (SB)
     4. Overview of book
     5. Summary (with forward pointers)
     6. Further Reading
