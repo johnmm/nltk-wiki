@@ -10,6 +10,9 @@ This page documents our plans for the development of the NLTK book, leading to a
         * each block of the architecture diagrams is a candidate here
         * include some indication of what performance to expect on each task (state of the art performance?)
     3. Overview of NLTK (simple things you can do, intended to engage readers with the content, linguists and non-linguists alike) (SB)
+        * a little bit less on counting
+        * tokenization, tagging, count more interesting things
+        * parsing?
     4. Overview of book
     5. Summary (with forward pointers)
     6. Further Reading
