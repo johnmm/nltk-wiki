@@ -148,8 +148,9 @@ This page documents our plans for the development of the NLTK book, leading to a
        * _Evaluation_
     2. _Twitter Processing_
     3. _Sentiment Analysis_
-    4. _Further Reading_
-    5. _Exercises_
+    4. _Design Patterns for NLP systems??_
+    5. _Further Reading_
+    6. _Exercises_
 
 13. _**Appendix: Enough Python for this Book**_ (incorporating material from old chapters 1 and 4)
     1. Getting started with Python (from 1.1)
