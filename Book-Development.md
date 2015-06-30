@@ -9,7 +9,7 @@ This page documents our plans for the development of the NLTK book, leading to a
         * description, the pieces you need to solve it (architecture diagram if necessary)
         * the fact that there's overlap between these in terms of the required subtasks
         * some very different approaches exist for the above (favour popularity, reasonableness, coverage of approaches across the whole set)
-    2. Sub-tasks: WSD (EK), pronoun resolution/coreference (EL), paraphrasing (EK), finding things in text (SB), language modeling, collocations, sentence segmentation (SB), lexicon (associating meaning with words, and learning those associations automatically), normalization (stemming, unicode, case, twitter-speak), syntax (how do different words in the sentence relate to one another; e.g., agent of a verb), named entity recognition (EL) -- (identify tasks and writers by mid June)
+    2. Sub-tasks: WSD (EK), pronoun resolution/coreference (EL), paraphrasing (EK), finding things in text (SB), language modeling (EL), collocations (SB), sentence segmentation (SB), lexicon (associating meaning with words, and learning those associations automatically), normalization (stemming, unicode, case, twitter-speak) (EK?), syntax (how do different words in the sentence relate to one another; e.g., agent of a verb) (EK?), named entity recognition (EL) -- (identify tasks and writers by mid June)
         * show that these are non-trivial tasks (requires an example), but also do-able (outline of how it works)
         * each block of the architecture diagrams is a candidate here
         * include some indication of what performance to expect on each task (state of the art performance?)
