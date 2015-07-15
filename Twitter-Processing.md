@@ -8,8 +8,9 @@
 
 ## To do
 
-* Better Token Normaliser (e.g. see https://noisy-text.github.io/norm-shared-task.html)
+* Better Token Normaliser (e.g., see https://noisy-text.github.io/norm-shared-task.html)
 * Tweet POS tagger
-* Named Entity Recognition
+* Named Entity Recognition (e.g., see https://noisy-text.github.io/ner-shared-task.html) and grounding / disambiguation
 * Relation and event detection
 * Detecting irony and sarcasm
+* Clustering
