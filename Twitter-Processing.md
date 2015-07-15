@@ -1,19 +1,15 @@
-## First draft done
+## Functionality currently implemented (in `develop` branch)
 
-* Twitter API client wrapper 
-* Tweet ID list expander (to address Twitter ToS which prohibit redistribution of Twitter corpora) 
+* Twitter client for both Streaming and REST API
 * Twitter corpus reader 
-* Script for 'hydrating' a list of tweetIDs into full tweets 
-* Tokenizer
-
-## In progress
-
-* Write simple tutorial
-* Better doctest document
+* 'Casual' tokenizer with some normalisation
+* First 20k sample of Tweets in data download
+* Basic HOWTO (IPython notebook)
 
 ## To do
 
-* Language Identifier
-* Token Normaliser
+* Better Token Normaliser (e.g. see https://noisy-text.github.io/norm-shared-task.html)
 * Tweet POS tagger
-* Decide on 'corpora' to distribute (i.e., as Tweet IDs)
+* Named Entity Recognition
+* Relation and event detection
+* Detecting irony and sarcasm
