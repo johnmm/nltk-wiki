@@ -9,5 +9,4 @@ We invite contributions to NLTK. The following expectations apply to project mem
 * follow the guidelines on [[Package Structure]]
 * include detailed commit messages
 * ensure that changes don't break other code (or else update other code as needed)
-* run doctest on the module if it is invoked on the command line
 * discuss and announce significant changes on [nltk-dev](https://groups.google.com/d/forum/nltk-dev), including names for new packages
