@@ -56,7 +56,8 @@ To install
 To install
 * Make sure java is installed
 * Download & extract the Malt Parser: http://www.maltparser.org/download.html
-* Set the environment variable `MALT_PARSER` to point to the directory containing `malt.jar`.
+* Set the environment variable `MALT_PARSER` to point to the MaltParser directory, e.g. `/home/user/maltparser-1.8/` in Linux.
+* When using a pre-trained model, set the environment variable `MALT_MODEL` to point to `.mco` file, e.g. `engmalt.linear-1.7.mco` from http://www.maltparser.org/mco/mco.html.
 
 ## Hunpos Tagger
 
