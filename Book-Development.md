@@ -5,7 +5,7 @@ This page documents our plans for the development of the NLTK book, leading to a
         * something to get attention
         * bring in some material from the preface (SB)
         * revisit the reviews of the old chapter 1
-    1. NLP systems: translation (SB), dialogue (done), summarisation (SB), web search (EL), question answering (logic-rich, inferencing approach EK), recommendations (similarity metrics over document collections, EL), sentiment analysis (EK). Pointers to demonstrations online (links hosted at nltk.org to avoid link rot). Motivation. Architecture. Limitations. Discussion to highlight the non-trivial NLP involved. Help readers understand the breadth and limitations of NLP.
+    1. NLP systems: translation (nearly done), dialogue (done), summarisation (SB), web search (EL), question answering (logic-rich, inferencing approach EK), recommendations (similarity metrics over document collections, EL), sentiment analysis (EK). Pointers to demonstrations online (links hosted at nltk.org to avoid link rot). Motivation. Architecture. Limitations. Discussion to highlight the non-trivial NLP involved. Help readers understand the breadth and limitations of NLP.
         * description, the pieces you need to solve it (architecture diagram if necessary)
         * the fact that there's overlap between these in terms of the required subtasks
         * some very different approaches exist for the above (favour popularity, reasonableness, coverage of approaches across the whole set)
