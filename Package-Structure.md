@@ -19,5 +19,5 @@ Most NLTK code is structured into packages, which have the following structure:
     * example: https://github.com/nltk/nltk/blob/develop/nltk/chunk/util.py
   5. `module.py` (where "module" is the name of a module)
     * imports in three blocks: standard library and third party imports, nltk imports, package-local imports
-    * imports from this package are local imports, of the form `from other_module import name` (and not `from nltk.package.other_module import name`; to facilitate moving, splitting and merging of packages)
+    * imports from this package have the form `from nltk.package import name` (and not `from nltk.package.other_module import name`, for names that are imported into `__init__.py`; to facilitate reorganisation of the internals of a package)
     * imports from other nltk packages are fully qualified, e.g. `from nltk import tokenize`
