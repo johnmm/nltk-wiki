@@ -41,12 +41,18 @@ We now have much better support for sentiment analysis in NLTK, with the followi
   - **CONTACT**: Bing Liu (liub@cs.uic.edu)
   - **NOTES**: Sentence, POS-tagged sentence, entities, comparison type (non-equal, equative, superlative, non-gradable)
 
+There is some documentation here:
+
+* New corpora in http://www.nltk.org/howto/corpus.html#categorized-corpora
+* Brief examples in http://www.nltk.org/howto/sentiment.html
+* Longer examples in http://www.nltk.org/api/nltk.sentiment.html#module-nltk.sentiment.util
 
 # Next Steps
 
 
 * Build a trained model of sentiment for a large-ish Tweet corpus
 * Add a module for feature-based classification (e.g. using the Customer Product Reviews)
+* Improve the documentation
 
 We should also investigate the following resources:
 
@@ -114,5 +120,4 @@ We should also investigate the following resources:
   - **PAPERS**:
   - **CONTACT**:
   - **NOTES**: Check licensing of annotations
-
 
