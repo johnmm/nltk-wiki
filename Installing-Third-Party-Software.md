@@ -75,3 +75,18 @@ To install
 To install 
 * Download & compile : http://www.chokkan.org/software/crfsuite/
 * Set the environment variable `CRFSUITE` to point to the directory containing `crfsuite` (for Linux) or `crfsuite.exe` for Window. NLTK searches for the binary executable files via this environment variable, but the executable file path can also be passed to the `nltk.tag.crfsuite.CRFTagger` class via the `file_path` argument.
+
+## REPP Tokenizer
+
+To install
+
+```
+svn co http://svn.delph-in.net/repp/trunk /path/to/where/you/wanna/save/repp
+cd /path/to/where/you/wanna/save/repp/ 
+autoreconf -i
+./configure
+make
+```
+ * The installation instructions above is tested for Linux and Mac OS.
+ * After installing you can set the environment variable `REPP_TOKENIZER` to point to the directory containing the `repp` tokenizer, e.g. (`/path/to/where/you/wanna/save/repp/`), then you can instantiate the tokenizer object without specifying any parameter, e.g. (`tokenizer = nltk.tokenize.ReppTokenizer()`)
+ * Also, you can directly create the `ReppTokenizer` object by passing in the directory containing the `repp` tokenizer without setting the environment variable, i.e. (`tokenizer = nltk.tokenize.ReppTokenizer(/path/to/where/you/wanna/save/repp)`)
