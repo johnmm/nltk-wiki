@@ -87,6 +87,6 @@ autoreconf -i
 ./configure
 make
 ```
- * The installation instructions above is tested for Linux and Mac OS.
+ * The installation instructions above is tested for Linux and Mac OS. For more information, see http://moin.delph-in.net/ReppTop
  * After installing you can set the environment variable `REPP_TOKENIZER` to point to the directory containing the `repp` tokenizer, e.g. (`/path/to/where/you/wanna/save/repp/`), then you can instantiate the tokenizer object without specifying any parameter, e.g. (`tokenizer = nltk.tokenize.ReppTokenizer()`)
  * Also, you can directly create the `ReppTokenizer` object by passing in the directory containing the `repp` tokenizer without setting the environment variable, i.e. (`tokenizer = nltk.tokenize.ReppTokenizer(/path/to/where/you/wanna/save/repp)`)
