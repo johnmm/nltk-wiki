@@ -28,8 +28,8 @@ To add a corpus to NLTK, please follow these steps:
   * fork the nltk_data repository: https://github.com/nltk/nltk_data/fork
   * clone the repository and check out the `gh-pages` branch
   * `mkdir packages/corpora/corpus_name` (using the corpus name agreed in step 1 above)
-  * include a `README.txt` file at the top level, with the corpus name and source URL for the corpus at the top
-  * make sure there are no extraneous files like `.svn`, `.DS_store` or `README.txt~`. 
+  * include a `README` file (text file with no extension) at the top level, with the corpus name and source URL for the corpus at the top
+  * make sure there are no extraneous files like `.svn`, `.DS_store` or `README~`. 
   * `zip -r corpus_name corpus_name` (NB you can use the `-x` option to exclude unwanted files, e.g., `zip -r corpus_name corpus_name -x "*.DS_Store"`)
   * create `corpus_name.xml` using the metadata template (see below); specify `unzip="1"` if the corpus reader requires the data to be unzipped after being installed (usually not necessary).
   * add the corpus name to `/collections/all.xml`
