@@ -14,4 +14,4 @@
 * Named Entity Recognition (e.g., see https://noisy-text.github.io/ner-shared-task.html) and grounding / disambiguation
 * Relation and event detection
 * Detecting irony and sarcasm
-* Clustering
+* Clustering 
