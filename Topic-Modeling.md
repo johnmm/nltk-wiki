@@ -1,0 +1,1 @@
+an explosion in metro, terrorist attack
