@@ -16,7 +16,7 @@ It is best to use the package manager to install java.
 ## Stanford Tagger, NER, Tokenizer and Parser. 
 
 To install:
-* Make sure java is installed
+* Make sure java is installed (version 1.8+)
 * Download & extract the stanford tokenizer package (contains the stanford tagger): http://nlp.stanford.edu/software/lex-parser.shtml
 * Download & extract the stanford NER package http://nlp.stanford.edu/software/CRF-NER.shtml
 * Download & extract the stanford POS tagger package http://nlp.stanford.edu/software/tagger.shtml
