@@ -85,7 +85,7 @@ mkdir -p /path/to/where/you/wanna/save/repp
 svn co http://svn.delph-in.net/repp/trunk /path/to/where/you/wanna/save/repp
 cd /path/to/where/you/wanna/save/repp/ 
 autoreconf -i
-./configure
+./configure CPPFLAGS=-P
 make
 ```
  * The installation instructions above is tested for Linux and Mac OS. For more information, see http://moin.delph-in.net/ReppTop
