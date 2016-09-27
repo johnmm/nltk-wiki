@@ -1,3 +1,4 @@
+<li><a href="https://www.packtpub.com/big-data-and-business-intelligence/nltk-essentials/book" rel="nofollow">NLTK Essentials</a> - Build cool NLP and machine learning applications using NLTK and other Python libraries by Nitin Hardeniya</li>
 <li><a href="https://www.packtpub.com/application-development/python-3-text-processing-nltk-3-cookbook/book" rel="nofollow">Python 3 Text Processing with NLTK 3 Cookbook</a> - Over 80 practical recipes on natural language processing techniques using Python's NLTK 3.0 by Jacob Perkins</li>
 <li><a href="https://www.packtpub.com/python-text-processing-with-nltk-2-0-cookbook/book" rel="nofollow">Python Text Processing with NLTK 2.0 Cookbook</a> - lots of text processing recipes by Jacob Perkins</li>
 <li><a href="http://text-processing.com/demo/" rel="nofollow">http://text-processing.com/demo/</a> - interactive online demos by Jacob Perkins</li>
