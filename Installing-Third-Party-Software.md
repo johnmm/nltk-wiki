@@ -92,7 +92,7 @@ make
  * After installing you can set the environment variable `REPP_TOKENIZER` to point to the directory containing the `repp` tokenizer, e.g. (`/path/to/where/you/wanna/save/repp/`), then you can instantiate the tokenizer object without specifying any parameter, e.g. (`tokenizer = nltk.tokenize.ReppTokenizer()`)
  * Also, you can directly create the `ReppTokenizer` object by passing in the directory containing the `repp` tokenizer without setting the environment variable, i.e. (`tokenizer = nltk.tokenize.ReppTokenizer(/path/to/where/you/wanna/save/repp)`)
 
-If at the `./configure CPPFLAGS=-P` shows an error like this on Mac:
+If at the `./configure CPPFLAGS=-P` step, it shows an error like this on Mac:
 
 ```
 configure: error: required ICU library are missing
