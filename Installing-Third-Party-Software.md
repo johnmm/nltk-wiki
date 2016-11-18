@@ -98,4 +98,4 @@ If at the `./configure CPPFLAGS=-P` shows an error like this on Mac:
 configure: error: required ICU library are missing
 ```
 
-Please install the ICU library (`brew install icu4c`) and then retry from the `./configure CPPFLAGS=-P` step.
+Please install and link the ICU library (`brew install icu4c && brew link icu4c --force`) and then retry from the `./configure CPPFLAGS=-P` step. If for any reason, you need to unlink the icu4c, try: `brew unlink icu4c`.
