@@ -2,7 +2,7 @@ Statistical machine translation (SMT) is a rapidly growing area within Computati
 
 ## Existing functionality
 
-Existing functionality is mostly in the [align package](https://github.com/nltk/nltk/tree/develop/nltk/translate). It includes:
+Existing functionality is mostly in the [translate submodule](https://github.com/nltk/nltk/tree/develop/nltk/translate). It includes:
 
 * IBM Models 1-3 `translate/ibm{1,2,3}.py`
 * MT evaluation metrics
