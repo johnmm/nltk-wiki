@@ -34,3 +34,4 @@ Existing Python implementations that could possibly be incorporated into NLTK
 ## Useful links
 
 * http://www.statmt.org/
+* https://github.com/jonsafari/nmt-list
