@@ -2,13 +2,17 @@ Statistical machine translation (SMT) is a rapidly growing area within Computati
 
 ## Existing functionality
 
-Existing functionality is mostly in the [align package](https://github.com/nltk/nltk/tree/develop/nltk/align). It includes:
+Existing functionality is mostly in the [align package](https://github.com/nltk/nltk/tree/develop/nltk/translate). It includes:
 
-* IBM Models 1-3 `align/ibm{1,2,3}.py`
-* BLEU `align/bleu.py`
-* Gale-Church Sentence Aligner `align/gale_church.py`
+* IBM Models 1-3 `translate/ibm{1,2,3}.py`
+* MT evaluation metrics
+ * BLEU `translate/bleu_score.py`
+ * RIBES `translate/ribes_score.py`
+ * ChrF `translate/chrf_score.py`
+ * GLEU `translate/gleu_score.py`
+* Gale-Church Sentence Aligner `translate/gale_church.py`
 * Aligned sentence reader `corpus/reader/aligned.py`
-* Grow-Diagonal-Final-And Phrase Extraction `align/phrase_based.py`
+* Grow-Diagonal-Final-And Phrase Extraction `translate/phrase_based.py`
 
 ## Planned functionality
 
