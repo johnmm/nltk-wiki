@@ -33,30 +33,30 @@ How It Works
 
 Here's the list of files that are involved in the setup.
 
-* jenkins-job-config.xml
+* `jenkins-job-config.xml`
 
  The Jenkins job configuration file that is imported to create a new job.
 
-* jenkins.sh
+* `jenkins.sh`
 
  This is executed by the Jenkins job (via Tox) to install dependencies, run doctest (`nltk/test/runtests.py`), compute coverage, and run pylint. Other tasks can be added to this later.
 
-* pip-req.txt
+* `pip-req.txt`
 
  This is a pip requirements file. It lists NLTK dependencies.
 
-* tox.ini
+* `tox.ini`
 
- This is a configuration file for [Tox](http://tox.readthedocs.org/en/latest/). Tox is used to enable multi-python test environments. For example, it allows to run tests with python 2.7, python 3.2, pypy, etc. This config file lists many test environments. Our Jenkins job is configured to use two of them: `py26-jenkins` and `py32-jenkins`. These environments are set up to execute `jenkins.sh`, which in turn executes `nltk/test/runtests.py`.
+ This is a configuration file for [Tox](http://tox.readthedocs.org/en/latest/). Tox is used to enable multi-python test environments. For example, it allows to run tests with python 2.7, python 3.2, pypy, etc. This config file lists many test environments. Our Jenkins job is configured to use three of them: `py27-jenkins`, `py34-jenkins` and `py35-jenkins`. These environments are set up to execute `jenkins.sh`, which in turn executes `nltk/test/runtests.py`.
 
-* nltk/test/runtests.py
+* `nltk/test/runtests.py`
 
  This is the official test runner for NLTK. To run tests, `jenkins.sh` executes this file.
-Every 5 munites, the Jenkins job checks the repository and branch specified in the job config file for any new commits.
+Every 5 minutes, the Jenkins job checks the repository and branch specified in the job config file for any new commits.
 
-If new commits are found, the Jenkins job pulls the new commits and run tox at the top level directory of nltk source code.
+If new commits are found, the Jenkins job pulls the new commits and run `tox` at the top level directory of NLTK source code.
 
-For each Tox test environments specified in the Jenkins config file, tox creates a [virtualenv](http://www.virtualenv.org/) instance. Created virtual environments are reused instead of being re-created every time Tox runs.
+For each Tox test environment specified in the Jenkins config file, Tox creates a [virtualenv](http://www.virtualenv.org/) instance. Created virtual environments are reused instead of being re-created every time Tox runs.
 
 For each of the virtual environments, Tox runs `jenkins.sh`, which is the only command in the `commands` variable of the `tox.ini` file.
 
@@ -65,4 +65,4 @@ For each of the virtual environments, Tox runs `jenkins.sh`, which is the only c
  * downloads NLTK corpora,
  * installs any third party dependencies,
  * runs doctests & unit tests via `nltk/test/runtests.py`,
- * generates test results,
+ * generates test results
