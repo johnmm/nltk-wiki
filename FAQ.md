@@ -14,11 +14,11 @@ permits us to replicate the problem. </blockquote>
 <li><b>How can I contribute to NLTK development?</b></li><blockquote>New contributions are always welcome. Please consult the <a href="https://github.com/nltk/nltk/wiki#development">list of development priorities</a> and the <a href="https://github.com/nltk/nltk/issues">issue tracker</a> and submit a pull request. If you have particular expertise to offer, or new functionality to propose, please describe it on the <a href="https://groups.google.com/forum/#!forum/nltk-dev">nltk-dev mailing list</a>.</blockquote>
 <li><b>What data sources does NLTK use and how can more be added?</b></li><blockquote>Dozens of corpora are available for use with NLTK (see the list of <a href="http://nltk.org/nltk_data/">available datasets</a>, and the <a href="http://nltk.org/howto/">Corpus HOWTO</a>).  NLTK can be interfaced to other corpora; for instructions see section 2.1 of the <a href="http://nltk.org/book/ch02.html">NLTK book</a>, and consult the code in the <a href="https://github.com/nltk/nltk/tree/master/nltk/corpus/reader">corpus module</a>.  Requests for advice in developing corpus readers for new formats should be posted to the <a href="http://groups.google.com/group/nltk-dev">nltk-dev mailing list</a>.  Completed corpus readers should be submitted via the <a href="http://code.google.com/p/nltk/issues/list" rel="nofollow">Issue Tracker</a>.  Please specify the location of the corpus and whether it can be redistributed with NLTK.</blockquote>
 <li><b>I'm planning some long-term research using NLTK; how long is the toolkit going to be supported?</b> </li><blockquote>We plan to continue supporting the toolkit for as long as 
-possible.  We published the NLTK book in 2009 and a second edition is due out in 2016.
+possible.  We published the NLTK book in 2009 and have decided not to produce a second edition as originally planned.
 We plan to support the toolkit while the book is in active 
 use, and while the developers are employed in NLP research and teaching.
 Bug reports will be dealt with as quickly as possible. 
-</blockquote><li><b>Why is Python giving me a syntax error when I use NLTK?</b> </li><blockquote>NLTK requires Python version 2.7, or Python 3.2 onwards.  If you use an earlier 
+</blockquote><li><b>Why is Python giving me a syntax error when I use NLTK?</b> </li><blockquote>NLTK requires Python version 2.7, or Python 3.4 onwards.  If you use an earlier 
 version of Python you will see many syntax errors.<br /></blockquote>
 <li><b>What is the difference between NLTK and NLTK-Lite?</b> </li><blockquote>In mid-2005, the NLTK developers created a 
 lightweight version of NLTK called NLTK-Lite. NLTK-Lite was 
@@ -43,9 +43,8 @@ machine.
 <pre><span>&gt;&gt;&gt;</span><span> </span><span>import</span><span> nltk<br /></span><span>&gt;&gt;&gt;</span><span> nltk</span><span>.</span><span>__path__<br /></span><span>[</span><span>'/opt/local/Library/Frameworks/Python.framework/Versions/3.2/lib/python3.2/site-packages/nltk-3.0a3-py3.2.egg/nltk'</span><span>]</span></pre></blockquote>
 <li><b>What papers have been published about NLTK?</b> </li><blockquote>NLTK has been used in a wide variety of published research. Please search <a href="https://scholar.google.com.au/scholar?q=%22natural+language+toolkit%22">Google Scholar</a> for details.
 </blockquote>
-<li><b>How is NLTK development supported?</b> </li><blockquote>NLTK is an open source project that depends mainly on the efforts of volunteers.  Occasionally we have funds for a summer intern or TA to work on specified projects.  Students and teachers also donate code.  In 2008, we received support from <i>Google 
-Summer of Code</i>.  We encourage volunteers to get involved (please consult the <a href="https://github.com/nltk/nltk/wiki">wiki</a>). 
-If you find the toolkit useful, please make a donation to support further development. 
+<li><b>How is NLTK development supported?</b> </li><blockquote>NLTK is an open source project that depends mainly on the efforts of volunteers.  Students and teachers also donate code. We encourage volunteers to get involved (please consult the <a href="https://github.com/nltk/nltk/wiki">wiki</a>). 
+If you find the toolkit useful, please contribute. 
 </blockquote>
 <li><b>How did NLTK start?</b> </li><blockquote>The NLTK project began when Steven Bird was teaching CIS-530 at 
 the University of Pennsylvania in 2001, and hired his star 
