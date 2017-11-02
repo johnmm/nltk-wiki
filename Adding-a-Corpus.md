@@ -8,6 +8,12 @@ If there is not yet a suitable corpus reader, you will need to create one, and s
 
 ## Adding a Corpus
 
+We welcome contributions of new corpora to NLTK. Each new corpus imposes a maintenance burden and a possible risk of copyright infringement. So before contributing we ask that you:
+
+1. Only contribute corpora that have obtained a basic level of notability (e.g. there is a publication that describes it, and a community of people who are using it)
+2. Ensure that you have permission to redistribute the data, and can document this (e.g. there is an external website where the data is already posted with a licence)
+3. Use existing NLTK corpus readers where possible, or else contribute a well-documented corpus reader to NLTK
+
 To add a corpus to NLTK, please follow these steps:
 
 1. Test that you can access the corpus using NLTK:
