@@ -34,7 +34,7 @@ To install
 ## Megam (MEGA Model Optimization Package)
 
 To install
-* Download & compile MEGAM's source: http://www.umiacs.umd.edu/~hal/megam/index.html
+* Download & compile MEGAM's source: http://hal3.name/megam/
 * Set the environment variable `MEGAM` to point to the MEGAM directory.
 * If using macports version of ocaml, modify the MEGAM Makefile to specify the following:
   `WITHCLIBS =-I /opt/local/lib/ocaml/caml` and `WITHSTR =str.cma -cclib -lcamlstr`
